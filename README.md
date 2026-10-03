@@ -1,6 +1,6 @@
 # CRC-SigBench — a cross-cohort benchmark of 320 colorectal cancer prognostic transcriptomic signatures
 
-[Repository URL — TO BE INSERTED] · [GigaDB DOI — TO BE INSERTED] · Code: MIT · Data and results: CC0 1.0
+https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605/OSF.IO/6PF43 · Code: MIT · Data and results: CC0 1.0
 
 ## What this is
 
