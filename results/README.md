@@ -31,6 +31,7 @@ Licence: CC0 1.0 Universal.
 | Attribution and bias | `probast_assessment.csv` | `PROBAST_自动评估.csv` | PROBAST 逐签名自动评估 |
 | Attribution and bias | `methodology_extraction.csv` | `全文方法学提取.csv` | 全文方法学要素提取 |
 | Attribution and bias | `manual_verification_30.csv` | `人工核对结果_30条.csv` | 30 条人工抽查核对结果 |
+| Attribution and bias | `manual_verification_30.xlsx` | `人工核对30条_已核对.xlsx` | 同一份 30 条核对底稿（Excel 版，含逐项人工判定与备注） |
 | Cut-point and trends | `cutpoint_summary.csv` | `截点操纵_汇总.csv` | 截点操纵实验汇总 |
 | Cut-point and trends | `cutpoint_published.csv` | `截点操纵_已发表签名.csv` | 截点操纵：已发表签名 |
 | Cut-point and trends | `cutpoint_random.csv` | `截点操纵_随机基因集.csv` | 截点操纵：随机基因集 |

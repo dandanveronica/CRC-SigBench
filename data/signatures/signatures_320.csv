@@ -1,321 +1,321 @@
-﻿sig_id
-SIG001
-SIG002
-SIG003
-SIG004
-SIG005
-SIG006
-SIG007
-SIG009
-SIG010
-SIG011
-SIG012
-SIG013
-SIG014
-SIG015
-SIG016
-SIG018
-SIG019
-SIG020
-SIG021
-SIG022
-SIG023
-SIG024
-SIG025
-SIG026
-SIG027
-SIG028
-SIG029
-SIG030
-SIG031
-SIG032
-SIG033
-SIG034
-SIG035
-SIG036
-SIG037
-SIG038
-SIG039
-SIG040
-SIG041
-SIG042
-SIG043
-SIG044
-SIG045
-SIG046
-SIG047
-SIG048
-SIG049
-SIG050
-SIG051
-SIG052
-SIG053
-SIG054
-SIG055
-SIG056
-SIG057
-SIG058
-SIG059
-SIG060
-SIG062
-SIG063
-SIG064
-SIG065
-SIG066
-SIG067
-SIG068
-SIG069
-SIG070
-SIG071
-SIG072
-SIG073
-SIG074
-SIG075
-SIG076
-SIG077
-SIG078
-SIG079
-SIG080
-SIG081
-SIG082
-SIG083
-SIG084
-SIG085
-SIG086
-SIG087
-SIG088
-SIG089
-SIG090
-SIG091
-SIG093
-SIG094
-SIG095
-SIG096
-SIG097
-SIG098
-SIG099
-SIG101
-SIG102
-SIG107
-SIG108
-SIG109
-SIG110
-SIG111
-SIG112
-SIG113
-SIG114
-SIG115
-SIG116
-SIG117
-SIG118
-SIG119
-SIG120
-SIG121
-SIG122
-SIG124
-SIG125
-SIG126
-SIG127
-SIG128
-SIG129
-SIG130
-SIG132
-SIG133
-SIG134
-SIG135
-SIG136
-SIG138
-SIG139
-SIG140
-SIG141
-SIG142
-SIG143
-SIG144
-SIG145
-SIG146
-SIG147
-SIG148
-SIG149
-SIG150
-SIG151
-SIG152
-SIG153
-SIG154
-SIG155
-SIG156
-SIG157
-SIG159
-SIG161
-SIG163
-SIG164
-SIG165
-SIG166
-SIG167
-SIG168
-SIG169
-SIG170
-SIG171
-SIG172
-SIG173
-SIG175
-SIG176
-SIG177
-SIG178
-SIG179
-SIG180
-SIG181
-SIG182
-SIG183
-SIG184
-SIG185
-SIG186
-SIG187
-SIG188
-SIG189
-SIG190
-SIG191
-SIG192
-SIG193
-SIG194
-SIG195
-SIG196
-SIG197
-SIG198
-SIG199
-SIG200
-SIG201
-SIG202
-SIG203
-SIG204
-SIG205
-SIG206
-SIG207
-SIG208
-SIG209
-SIG210
-SIG211
-SIG212
-SIG213
-SIG214
-SIG215
-SIG216
-SIG217
-SIG218
-SIG219
-SIG220
-SIG221
-SIG222
-SIG223
-SIG224
-SIG225
-SIG226
-SIG227
-SIG228
-SIG229
-SIG230
-SIG231
-SIG232
-SIG233
-SIG234
-SIG235
-SIG236
-SIG237
-SIG238
-SIG239
-SIG240
-SIG241
-SIG242
-SIG243
-SIG244
-SIG245
-SIG246
-SIG247
-SIG248
-SIG249
-SIG250
-SIG251
-SIG252
-SIG253
-SIG254
-SIG255
-SIG256
-SIG257
-SIG258
-SIG259
-SIG260
-SIG261
-SIG262
-SIG263
-SIG264
-SIG265
-SIG266
-SIG267
-SIG268
-SIG269
-SIG270
-SIG271
-SIG272
-SIG273
-SIG274
-SIG275
-SIG276
-SIG277
-SIG278
-SIG279
-SIG280
-SIG281
-SIG282
-SIG283
-SIG284
-SIG285
-SIG286
-SIG287
-SIG288
-SIG289
-SIG290
-SIG291
-SIG292
-SIG293
-SIG294
-SIG295
-SIG296
-SIG297
-SIG298
-SIG300
-SIG301
-SIG302
-SIG303
-SIG304
-SIG305
-SIG306
-SIG307
-SIG308
-SIG309
-SIG310
-SIG311
-SIG312
-SIG313
-SIG314
-SIG315
-SIG316
-SIG317
-SIG318
-SIG319
-SIG320
-SIG321
-SIG322
-SIG323
-SIG324
-SIG325
-SIG326
-SIG327
-SIG328
-SIG329
-SIG330
-SIG331
-SIG332
-SIG334
-SIG335
-SIG336
-SIG337
-SIG338
+﻿sig_id,publication_year,journal,title,pmcid,n_genes,training_set_n,model_building_method,external_validation_declared,multivariable_adjustment,risk_formula_published,lasso,univariable_cox,multivariable_cox,stepwise,machine_learning,wgcna,nomogram,single_cell_or_spatial,thematic_restriction,gene_popularity_mean,pct_hot_gene
+SIG001,2026,Asian Pacific journal of cancer prevention : APJCP,Identification and Validation of Prognostic Biomarker Signatures Associated with Overall Survival in Colorectal Cancer: Evidence from Bioinformatics Analysis and an in vivo Study,PMC13380873,4,,单因素Cox,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0125,0.25
+SIG002,2026,Discover oncology,RNF research trends and an RNF43-based prognostic model for colorectal cancer with immune microenvironment analysis,PMC13530082,4,541,LASSO+多因素Cox+机器学习-其他,1,1,1,0,0,0,0,0,0,1,0,免疫/炎症,0.0008,0.0
+SIG003,2025,Frontiers in immunology,A mitochondrial lipid metabolism-related gene signature predicts prognosis and immune landscape in colorectal cancer,PMC12640859,13,,LASSO+单因素Cox+多因素Cox,1,1,1,1,1,0,0,0,0,0,0,脂代谢,0.0072,0.0769
+SIG004,2025,Scientific reports,"Comprehensive analysis of mitochondrial-related gene signature for prognosis, tumor immune microenvironment evaluation, and candidate drug development in colon cancer",PMC11842742,9,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,0,0,0,1,0,0,0,0,0,免疫/炎症,0.0143,0.3333
+SIG005,2025,Discover oncology,Machine learning-based construction of an oxidative stress-related model reveals molecular subtypes and tumor microenvironment infiltration signatures in colon cancer,PMC12830534,6,177,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,1,0,0,0,未分类,0.0068,0.0
+SIG006,2026,Cancer medicine,Identification of an Immune Cell Gene Signature for Predicting Response and Prognosis in Rectal Cancer Patients Undergoing Neoadjuvant Chemoradiotherapy,PMC13392207,8,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,1,0,0,0,0,0,0,0,免疫/炎症,0.0012,0.0
+SIG007,2026,Discover oncology,Up-regulation of SLC26A3 enhances oxaliplatin sensitivity in colorectal cancer,PMC13407781,15,621,随机森林+机器学习-其他+WGCNA+PCA,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0021,0.0
+SIG009,2026,Discover oncology,Identification of pyroptosis and hypoxia related molecular subtypes and a prognostic signature in colorectal cancer,PMC13234113,6,460,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,缺氧,0.0016,0.0
+SIG010,2025,BMC gastroenterology,Identification and validation of a CD4&lt;sup&gt;+&lt;/sup&gt; T cell-related prognostic model to predict immune responses in stage III-IV colorectal cancer,PMC11895157,6,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0016,0.0
+SIG011,2025,Discover oncology,Immunological characterization and prognostic of colon cancer evaluated by angiogenesis-related features: a computational analysis and in vitro experiments,PMC11780071,3,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0084,0.0
+SIG012,2025,European journal of medical research,Construction and validation of a prognostic model for colorectal cancer based on bioinformatics and basement membrane-related genes,PMC12629019,3,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0021,0.0
+SIG013,2025,Frontiers in immunology,Intratumor heterogeneity score reveals immune landscape and survival stratification in colorectal cancer,PMC12813002,9,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0073,0.1111
+SIG014,2025,Frontiers in pharmacology,Multi-omics integration and machine learning-driven construction of an immunogenic cell death prognostic model for colon cancer and functional validation of FCGR2A,PMC12872855,15,420,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,1,0,0,0,免疫/炎症,0.0036,0.0
+SIG015,2026,Scientific reports,A pseudouridine-related prognostic model of colorectal cancer based on single-cell sequencing analysis and transcriptome analysis,PMC12873357,3,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0031,0.0
+SIG016,2026,Communications biology,A nucleolar stress gene signature enables quantitative scoring across multi-omics contexts,PMC13379586,57,,逐步回归+PCA,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0016,0.0175
+SIG018,2025,Heliyon,A novel gene signature for predicting outcome in colorectal cancer patients based on tumor cell-endothelial cell interaction via single-cell sequencing and machine learning,PMC11815678,9,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,1,0,0,1,未分类,0.0059,0.0
+SIG019,2025,Discover oncology,A ferroptosis-related risk model for non-coding RNA AC002331.1 in colon cancer: construction via competing endogenous RNA network analysis,PMC12325823,12,,LASSO,0,0,0,0,0,0,0,0,0,0,0,铁死亡,0.0071,0.0833
+SIG020,2025,Genes,Identifying CDCA4 as a Radiotherapy Resistance-Associated Gene in Colorectal Cancer by an Integrated Bioinformatics Analysis Approach,PMC12193651,5,,随机森林+PCA,1,0,0,0,0,0,0,1,0,0,0,未分类,0.0006,0.0
+SIG021,2026,Journal of Cancer,An integrated bulk and single-cell transcriptomic analysis reveals stemness-driven immune regulation and therapeutic vulnerability in colorectal cancer,PMC13104719,10,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0135,0.3
+SIG022,2026,Genes,Graph-Based Multi-Omics Integration Reveals Prognostic Histone Modification Reader Genes and Candidate Drug Targets in Colorectal Cancer,PMC13512344,4,,逐步回归+随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0047,0.0
+SIG023,2026,Journal of gastrointestinal oncology,Construction of taurine metabolism-related risk model and subtype identification in colorectal cancer to predict prognosis and immunological features,PMC12972033,9,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0192,0.1111
+SIG024,2026,Frontiers in immunology,Integrated single-cell and spatial transcriptomics reveal immune landscape and NKT-Th1 signatures in colorectal cancer,PMC13291139,7,,单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0022,0.0
+SIG025,2025,Frontiers in immunology,Integration of single-cell and bulk RNA-seq via machine learning to reveal ferroptosis- and lipid metabolism-driven immune landscape heterogeneity and predict immunotherapy response in colon cancer,PMC12714941,13,139,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,1,0,0,0,0,1,0,0,1,脂代谢,0.0082,0.0
+SIG026,2025,Discover oncology,Constructing a mitochondrial-related genes model based on machine learning for predicting the prognosis and therapeutic effect in colorectal cancer,PMC12049353,31,605,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他,1,1,0,0,0,0,0,1,0,0,0,免疫/炎症,0.0066,0.0645
+SIG027,2025,Translational cancer research,Constructing and validating a novel prognostic risk score model for rectal cancer based on four immune-related genes,PMC11912041,4,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,1,0,0,0,0,0,免疫/炎症,0.0008,0.0
+SIG028,2025,Scientific reports,Development and validation of a cancer-associated fibroblast gene signature-based model for predicting immunotherapy response in colon cancer,PMC12075585,4,,LASSO+单因素Cox+WGCNA,1,0,1,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0024,0.0
+SIG029,2025,Scientific reports,Nucleotide metabolism-associated drug resistance gene NDUFA4L2 promotes colon cancer progression and 5-FU resistance,PMC11695588,5,,LASSO+单因素Cox+多因素Cox,0,1,0,0,0,0,0,0,0,0,0,未分类,0.0069,0.0
+SIG030,2026,Cancer cell international,Construction of a risk scoring model based on machine learning and validation of the role of the key gene SERPINE1 in the progression of colon cancer,PMC13227730,7,,LASSO+单因素Cox+多因素Cox+机器学习-其他,1,1,1,0,0,0,0,1,0,0,0,未分类,0.0054,0.1429
+SIG031,2025,Oncology reports,Chromosome 20q gene signature associated with colorectal cancer progression,PMC12308843,4,74,未说明,1,0,0,0,0,0,0,0,0,0,0,EMT/转移,0.0024,0.0
+SIG032,2026,Current medicinal chemistry,"The Risk Genes S1PR5, CMC1, and ASAH1 as Potential Targets for the Diagnosis, Immunotherapy, and Treatment of Colon Adenocarcinoma by Single-Cell and Bulk RNA Sequencing Analysis",PMC13555847,10,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0204,0.2
+SIG033,2026,Journal of translational medicine,An epithelial cell fate-driven predictive model for liver metastasis risk in primary colorectal cancer through single-cell and multi-omics integration,PMC13474844,10,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,1,EMT/转移,0.016,0.2
+SIG034,2025,International journal of genomics,Risk Prediction of Colon Cancer Metastasis and Bioinformatics Analysis of Aspirin Treatment,PMC12714093,14,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,0,EMT/转移,0.0049,0.0714
+SIG035,2025,Translational cancer research,Integrative single-cell and bulk transcriptomes analyses reveal T cell-related prognostic risk model and tumor immune microenvironment modulation in colorectal cancer,PMC12604944,3,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0376,0.3333
+SIG036,2024,Journal of gastrointestinal oncology,Machine learning-based analysis identifies a 13-gene prognostic signature to improve the clinical outcomes of colorectal cancer,PMC11565104,13,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,1,0,0,0,免疫/炎症,0.007,0.0769
+SIG037,2026,Cancers,Integrated Single-Cell and Spatial Transcriptomic Analysis Identifies Putative Metabolic Crosstalk Between &lt;i&gt;SPP1&lt;/i&gt;+ TAMs and &lt;i&gt;SLC6A20&lt;/i&gt;+ Epithelial Cells in Colorectal Cancer,PMC13255607,14,,LASSO+多因素Cox+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0052,0.0714
+SIG038,2025,Scientific reports,Development of a prognostic model for chemotherapy response and identification of TNFAIP2 as a target in colorectal cancer,PMC12141457,3,114,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA,1,1,1,0,0,1,1,0,0,0,0,未分类,0.0,0.0
+SIG039,2025,Mediators of inflammation,The Tumor-Associated Neutrophils-Related Signatures Predict Prognosis and Indicate Immune Landscape in Colorectal Carcinoma,PMC12162164,14,557,LASSO+单因素Cox+多因素Cox+WGCNA,0,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0078,0.0
+SIG040,2025,Frontiers in medicine,Constructing a novel mitochondrial metabolism-related genes signature to evaluate tumor immune microenvironment and predict survival of colorectal cancer,PMC12279720,15,585,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,1,0,免疫/炎症,0.0065,0.0667
+SIG041,2026,International journal of colorectal disease,The subtype identification of colorectal cancer and construction of the risk model based on cholesterol synthesis-related genes to predict prognosis and guide immunotherapy,PMC12789220,10,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,脂代谢,0.0053,0.0
+SIG042,2025,Discover oncology,Integrative machine learning identifies lactylation-related gene signature prognostic for chemotherapeutic efficacy in colorectal carcinoma,PMC12796083,8,,逐步回归+随机森林+机器学习-其他+WGCNA,1,0,0,0,0,0,0,1,0,0,0,未分类,0.0016,0.0
+SIG043,2025,Frontiers in immunology,Assessment of prognosis and responsiveness to immunotherapy in colorectal cancer patients based on the level of immune cell infiltration,PMC11830669,14,177,LASSO+单因素Cox+多因素Cox+WGCNA,0,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0027,0.0
+SIG044,2026,Frontiers in public health,Transcriptomics and Mendelian randomization studies reveal the critical role of Stanniocalcin-2 in linking perfluorinated compound-exposure to colorectal cancer,PMC13161029,3,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0313,0.6667
+SIG045,2024,Annals of gastroenterological surgery,A new TGF-β risk score predicts clinical and immune landscape in colorectal cancer patients,PMC11368510,6,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0078,0.0
+SIG046,2023,Frontiers in oncology,Effective oxygen metabolism-based prognostic signature for colorectal cancer,PMC9947833,5,102,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0006,0.0
+SIG047,2025,Translational cancer research,Identification of hub genes related to radiosensitivity and prognosis in rectal cancer,PMC12432772,4,145,单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0008,0.0
+SIG048,2026,Molecular therapy. Nucleic acids,Multi-layer molecular profiling defines an immune-active colorectal cancer subtype with therapeutic relevance,PMC13068838,11,275,单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0151,0.2727
+SIG049,2023,Journal of clinical laboratory analysis,Development of 14-gene signature prognostic model based on metastasis for colorectal cancer,PMC9833974,14,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,EMT/转移,0.0072,0.1429
+SIG050,2025,Oncology research,A Machine-Learning Prognostic Model for Colorectal Cancer Using a Complement-Related Risk Signature,PMC12573216,6,624,单因素Cox+多因素Cox+随机森林+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0047,0.0
+SIG051,2025,Molecular oncology,Consensus molecular subtyping of colorectal carcinoma brain metastases reveals a metabolic signature associated with poor patient survival,PMC11887667,7,61,随机森林+PCA,1,0,0,0,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0004,0.0
+SIG052,2024,Journal of translational medicine,A multi-dimensional approach to unravel the intricacies of lactylation related signature for prognostic and therapeutic insight in colorectal cancer,PMC10900655,20,589,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0055,0.05
+SIG053,2025,Frontiers in immunology,Cancer-associated fibroblasts gene signature: a novel approach to survival prediction and immunotherapy guidance in colon cancer,PMC12011795,11,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.008,0.0909
+SIG054,2024,BMC cancer,Functional gene signature offers a powerful tool for characterizing clinicopathological features and depicting tumor immune microenvironment of colorectal cancer,PMC11437988,46,,单因素Cox+PCA,1,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0099,0.1304
+SIG055,2026,Cell & bioscience,Integrative genomic profiling of iron homeostasis predicts clinical outcomes and identifies HAMP/hepcidin as a therapeutic target in colorectal cancer,PMC13202878,21,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0042,0.0
+SIG056,2025,PloS one,Analyses of the roles and potential targets of m7G-related genes in colorectal cancer using single-cell and bulk RNA sequencing data,PMC12711009,7,,LASSO+单因素Cox+PCA,1,0,1,1,0,0,0,0,0,0,1,免疫/炎症,0.0004,0.0
+SIG057,2025,Discover oncology,Identification of RNA binding protein genes associated with colorectal cancer by bioinformatics analysis,PMC12370611,8,,LASSO+单因素Cox+多因素Cox+PCA,0,1,1,0,0,0,0,0,0,0,0,未分类,0.0098,0.125
+SIG058,2025,Cell & bioscience,Multi-omics analysis of the HMGB2&lt;sup&gt;+&lt;/sup&gt; tumor epithelial cells in lactylation subgroups in colorectal cancer,PMC12632091,24,701,单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0018,0.0
+SIG059,2024,Frontiers in oncology,Exploiting tertiary lymphoid structures gene signature to evaluate tumor microenvironment infiltration and immunotherapy response in colorectal cancer,PMC11153738,14,,LASSO+单因素Cox+多因素Cox+随机森林+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0065,0.0714
+SIG060,2025,Human genomics,MX1 is a novel crucial prognostic and therapeutic target inducing chemoresistance in right-sided colon cancer: insights from machine learning-based multi-omics analysis,PMC12560344,7,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,1,1,0,0,1,0,0,0,未分类,0.0,0.0
+SIG062,2025,Briefings in bioinformatics,Non-apoptotic regulated cell death based prognostic risk model for colorectal cancer using machine learning guided two-step framework,PMC13223593,43,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+WGCNA,1,1,0,0,0,0,0,1,0,0,0,未分类,0.0052,0.0698
+SIG063,2025,Journal of gastroenterology,The pivotal role of SFRP2 in promoting glycolysis and progression in the high-risk group based on the glycometabolism prognostic model for colorectal cancer,PMC12549743,19,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0094,0.1053
+SIG064,2026,Discover oncology,Analysis and validation of mast cells and enriched genes in colorectal cancer with liver metastasis by multi-omics data,PMC13144465,3,,LASSO+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,EMT/转移,0.0136,0.3333
+SIG065,2023,Frontiers in oncology,"Identification of cuproptosis-based molecular subtypes, construction of prognostic signature and characterization of immune landscape in colon cancer",PMC10064275,5,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,铜死亡,0.0088,0.0
+SIG066,2025,Scientific reports,Comprehensive characterization of lysosome-dependent cell death reveals prognostic significance and immune landscape in colon adenocarcinoma,PMC12475495,11,973,LASSO+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0097,0.0
+SIG067,2026,Journal of translational medicine,Senescent fibroblasts drive CD8&lt;sup&gt;+&lt;/sup&gt; T cell dysfunction in colorectal cancer via CD36-mediated lipid transfer and peroxidation,PMC12955017,5,,随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,1,0,0,0,CAF成纤维细胞,0.0132,0.2
+SIG068,2025,iScience,Clonal dispersal is associated with tumor heterogeneity and poor prognosis in colorectal cancer,PMC12051713,5,,未说明,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0,0.0
+SIG069,2025,Clinical proteomics,Revelation of prognosis and tumor microenvironment of colorectal cancer based on genes related to antibody-dependent cellular phagocytosis and single-cell landscape,PMC12372309,7,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0027,0.0
+SIG070,2024,Discover oncology,"A comprehensive analysis of TRP-related gene signature, and immune infiltration in patients with colorectal cancer",PMC11330954,3,620,LASSO+多因素Cox+随机森林+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG071,2025,BMC cancer,A novel machine learning-based immune prognostic signature for improving clinical outcomes and guiding therapy in colorectal cancer: an integrated bioinformatics and experimental study,PMC11724613,13,,LASSO+单因素Cox+多因素Cox+逐步回归+机器学习-其他+PCA,1,1,0,1,0,0,0,1,0,0,0,免疫/炎症,0.0022,0.0
+SIG072,2024,Journal of Cancer,Identification of glutamine metabolism-related gene signature to predict colorectal cancer prognosis,PMC11064262,15,433,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0042,0.0
+SIG073,2025,Oncology research,"STC2+ Malignant Cell State Associated with EMT, Tumor Microenvironment Remodeling, and Poor Prognosis Revealed by Single-Cell and Spatial Transcriptomics in Colorectal Cancer",PMC12774564,16,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他,1,1,0,0,0,0,0,0,0,0,1,未分类,0.0092,0.0625
+SIG074,2023,Aging,A novel inflammation-related signature for predicting prognosis and characterizing the tumor microenvironment in colorectal cancer,PMC10120913,11,581,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA,0,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0202,0.1818
+SIG075,2025,Scientific reports,Single-cell and bulk transcriptomics reveal Fusobacterium nucleatum promotes colorectal cancer metastasis by upregulating LAMC2 in in vitro and in vivo models,PMC12657517,14,,多因素Cox,1,1,0,0,0,1,0,0,0,0,1,EMT/转移,0.0011,0.0
+SIG076,2025,Cell death & disease,Modeling oxaliplatin resistance in colorectal cancer reveals a SERPINE1-based gene signature (RESIST-M) and therapeutic strategies for pro-metastatic CMS4 subtype,PMC12264272,9,,PCA,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0035,0.1111
+SIG077,2023,Oncology letters,Construction of cuproptosis‑associated prognostic signature in colon adenocarcinoma based on bioinformatics and RT‑qPCR analysis,PMC9932052,7,312,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,1,0,0,0,1,0,铜死亡,0.0121,0.1429
+SIG078,2024,Translational cancer research,Value analysis of <i>ITLN1</i> in the diagnostic and prognostic assessment of colorectal cancer,PMC11231763,6,,LASSO+单因素Cox,1,0,1,1,1,0,0,0,0,0,0,未分类,0.0068,0.0
+SIG079,2025,Functional & integrative genomics,Prognostic and therapeutic implications related to glycosylation profiles of cancer-associated fibroblasts in colorectal cancer: insights from single-cell and bulk transcriptomics,PMC12354152,5,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,1,CAF成纤维细胞,0.0025,0.0
+SIG080,2025,IET systems biology,A Super-Enhancer-Related Ferroptosis Signature Predicts Survival and Immune Microenvironment in Colon Cancer Based on Bioinformatics Analyses and Experimental Validation,PMC12668565,8,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,铁死亡,0.0067,0.0
+SIG081,2025,Scientific reports,Integrated single cell and bulk RNA sequencing analyses reveal the impact of tryptophan metabolism on prognosis and immunotherapy in colon cancer,PMC11992224,5,,单因素Cox+随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0088,0.2
+SIG082,2026,Journal of translational medicine,Identification and evaluation of glutamine-related gene characteristics based on multi-omics to predict the prognosis of patients with colorectal cancer,PMC12903564,6,55,LASSO+单因素Cox+多因素Cox+随机森林+WGCNA+PCA,1,1,0,1,0,0,0,0,0,0,0,氨基酸代谢,0.012,0.1667
+SIG083,2024,Journal of Cancer,Construction and multicohort validation of a colon cancer prognostic risk score system based on big data of neutrophil-associated differentially expressed genes,PMC10988322,17,,单因素Cox+PCA,1,0,0,0,1,0,0,0,0,0,0,免疫/炎症,0.0124,0.1176
+SIG084,2024,Journal of cancer research and clinical oncology,Consensus clustering and development of a risk signature based on trajectory differential genes of cancer-associated fibroblast subpopulations in colorectal cancer,PMC11315798,15,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0123,0.0667
+SIG085,2024,Medicine,Construction and validation of an immune-related gene signature predictive of survival and response to immunotherapy for colorectal cancer,PMC11460896,7,597,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0175,0.1429
+SIG086,2025,Scientific reports,Glycosylation gene expression profiles enable prognosis prediction for colorectal cancer,PMC11700200,5,512,LASSO+单因素Cox+随机森林+机器学习-其他+PCA,1,0,1,0,0,0,0,0,0,0,0,未分类,0.0013,0.0
+SIG087,2025,World journal of clinical oncology,&lt;i&gt;Candida albicans&lt;/i&gt; and colorectal cancer: A paradoxical role revealed through metabolite profiling and prognostic modeling,PMC12019262,5,,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,0,焦亡,0.0219,0.2
+SIG088,2024,Discover oncology,Identification and validation of a novel six-gene signature based on mucinous adenocarcinoma-related gene molecular typing in colorectal cancer,PMC10914658,6,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0141,0.1667
+SIG089,2024,Heliyon,Potential regulation and prognostic model of colorectal cancer with extracellular matrix genes,PMC11379549,5,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG090,2024,BMC cancer,Integrated multi-omics analyses revealed the association between rheumatoid arthritis and colorectal cancer: MYO9A as a shared gene signature and an immune-related therapeutic target,PMC11165834,4,,多因素Cox+WGCNA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0016,0.0
+SIG091,2024,Clinical and experimental medicine,Establishment of a neutrophil extracellular trap-related prognostic signature for colorectal cancer liver metastasis and expression validation of CYP4F3,PMC11127854,7,,LASSO+单因素Cox+多因素Cox+随机森林+PCA,1,1,0,0,0,0,0,1,0,1,0,NETs中性粒细胞胞外诱捕网,0.0009,0.0
+SIG093,2025,Journal of translational medicine,Prognostic models of immune-related cell death and stress unveil mechanisms driving macrophage phenotypic evolution in colorectal cancer,PMC11776142,9,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0084,0.1111
+SIG094,2022,Medicine,A novel Anoikis and immune-related genes marked prognostic signature for colorectal cancer,PMC9678618,3,,单因素Cox+多因素Cox+逐步回归,1,1,1,0,1,0,0,0,0,0,0,失巢凋亡,0.0104,0.0
+SIG095,2023,International journal of molecular sciences,A Novel Lipid Metabolism and Endoplasmic Reticulum Stress-Related Risk Model for Predicting Immune Infiltration and Prognosis in Colorectal Cancer,PMC10531437,18,,LASSO+单因素Cox+多因素Cox+机器学习-其他+WGCNA,1,1,1,0,0,0,0,0,1,0,0,脂代谢,0.0204,0.2778
+SIG096,2025,Frontiers in immunology,Unveiling the immunometabolic landscape of colorectal cancer through PANoptosis-related gene expression,PMC12832467,11,,LASSO+单因素Cox+多因素Cox,1,1,0,1,0,0,0,0,0,0,0,免疫/炎症,0.0094,0.0909
+SIG097,2022,Frontiers in cell and developmental biology,A Prognostic Model Using Immune-Related Genes for Colorectal Cancer,PMC8893267,14,62,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0069,0.0714
+SIG098,2022,Frontiers in immunology,A novel oxidative stress- and ferroptosis-related gene prognostic signature for distinguishing cold and hot tumors in colorectal cancer,PMC9660228,5,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,1,1,0,0,1,0,0,0,0,铁死亡,0.0144,0.2
+SIG099,2025,Frontiers in immunology,Integrated multi-omics and machine learning reveal an immunogenic cell death-related signature for prognostic stratification and therapeutic optimization in colorectal cancer,PMC12307400,11,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,1,0,0,0,CAF成纤维细胞,0.0088,0.0909
+SIG101,2024,Scientific reports,Identifying colorectal cancer subtypes and establishing a prognostic model using metabolic plasticity and ferroptosis genes,PMC11549462,10,611,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,0,0,0,0,0,0,0,0,0,铁死亡,0.0041,0.0
+SIG102,2022,Cancer science,Novel prognostic model predicts overall survival in colon cancer based on RNA splicing regulation gene expression,PMC9530871,4,453,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0094,0.25
+SIG107,2025,Frontiers in immunology,Single-cell and spatial transcriptomic analysis reveals tumor cell heterogeneity and underlying molecular program in colorectal cancer,PMC11936967,15,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,1,未分类,0.0079,0.0667
+SIG108,2023,Cancer research communications,Development and Validation of a 15-gene Expression Signature with Superior Prognostic Ability in Stage II Colorectal Cancer,PMC10467603,15,,多因素Cox,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0013,0.0
+SIG109,2022,Frontiers in genetics,PANoptosis-based molecular clustering and prognostic signature predicts patient survival and immune landscape in colon cancer,PMC9515384,7,951,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0085,0.0
+SIG110,2025,Genes and immunity,Folate metabolism-associated CYP26A1 is a clinico-immune target in colorectal cancer,PMC12353796,9,585,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0084,0.0
+SIG111,2024,Journal of cellular and molecular medicine,Exploring the relationship between anal fistula and colorectal cancer based on Mendelian randomization and bioinformatics,PMC11312262,13,,LASSO+多因素Cox+机器学习-其他+PCA,0,1,0,0,0,0,0,1,0,0,0,未分类,0.0205,0.3077
+SIG112,2024,Frontiers in oncology,Elucidating the role of angiogenesis-related genes in colorectal cancer: a multi-omics analysis,PMC11220232,4,,LASSO+多因素Cox+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,0,血管生成,0.0266,0.25
+SIG113,2024,Aging,Mechanistic insights into super-enhancer-related genes as prognostic signatures in colon cancer,PMC11210223,10,,单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0013,0.0
+SIG114,2023,Frontiers in pharmacology,Metabolic-suppressed cancer-associated fibroblasts limit the immune environment and survival in colorectal cancer with liver metastasis,PMC10501863,20,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0014,0.0
+SIG115,2025,BMC cancer,"Integrating COX-2, stromal PD-L1, and T-cell infiltration enhances prognostic stratification in colorectal cancer",PMC12442288,4,193,单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG116,2025,Discover oncology,Comprehensive analysis of basement membrane-related genes showed that NELL2 is a new therapeutic target for colorectal cancer,PMC11832829,5,556,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0251,0.2
+SIG117,2021,Journal of inflammation research,Identification and Validation of a Novel Inflammatory Response-Related Gene Signature for the Prognosis of Colon Cancer,PMC8364916,4,,多因素Cox+逐步回归,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.029,0.25
+SIG118,2024,Frontiers in immunology,Establishment of a chemokine-based prognostic model and identification of CXCL10+ M1 macrophages as predictors of neoadjuvant therapy efficacy in colorectal cancer,PMC11335547,15,72,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0107,0.0667
+SIG119,2023,Discover oncology,Integrating TCGA and single-cell sequencing data for colorectal cancer: a 10-gene prognostic risk assessment model,PMC10499771,10,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0072,0.1
+SIG120,2025,Journal of Cancer,Development And Validation of An RNA Binding Protein-Associated Prognostic Model for Colon Adenocarcinoma,PMC12170993,4,,单因素Cox+多因素Cox+逐步回归+随机森林,0,1,0,0,0,0,0,0,0,0,0,未分类,0.0047,0.0
+SIG121,2025,Frontiers in immunology,Single-cell and bulk transcriptome analyses reveal elevated amino acid metabolism promoting tumor-directed immune evasion in colorectal cancer,PMC12137356,6,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,1,1,0,0,0,0,1,免疫/炎症,0.0016,0.0
+SIG122,2023,BMC medical genomics,Establishment and verification of prognostic model and ceRNA network analysis for colorectal cancer liver metastasis,PMC10169504,8,19,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,EMT/转移,0.0086,0.0
+SIG124,2026,Journal of translational medicine,Integrative single-cell and spatial multi-Omics analyses identify NETs-driven colon cancer subtypes with distinct metabolic features and prognostic implications,PMC13330288,4,290,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0086,0.25
+SIG125,2025,Frontiers in medicine,A mitochondrial ferroptosis-related gene signature predicts prognosis and immune landscape in colon cancer,PMC12434033,4,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林,1,1,1,0,0,0,0,0,0,0,0,铁死亡,0.0086,0.0
+SIG126,2026,Translational cancer research,A radiotherapy resistance-related prognostic signature predicts survival and the immune landscape in rectal cancer,PMC13462155,4,154,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0008,0.0
+SIG127,2026,BioMed research international,Single-Cell Sequencing Data Revealed Mechanisms of Interactions Between Tumor Cells and Cancer-Associated Fibroblasts in Metastatic Colorectal Cancer,PMC13140166,6,18,单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,1,CAF成纤维细胞,0.0042,0.0
+SIG128,2026,Mediators of inflammation,Analysis of Autophagy-Related Gene Signature Associated With Clinical Prognosis and Immune Microenvironment in Colorectal Cancer,PMC13140268,11,438,LASSO+单因素Cox+PCA,1,0,0,0,0,0,0,0,0,0,0,自噬,0.0054,0.0
+SIG129,2026,Translational cancer research,Ferroptosis-related lncRNA signature predicts prognosis and treatment response in colon cancer,PMC13190658,9,,单因素Cox+多因素Cox+逐步回归,0,1,1,0,0,0,0,0,0,0,0,铁死亡,0.0021,0.0
+SIG130,2026,Translational oncology,Integrating single-cell and bulk RNA data to explore the prognostic significance of LIM domain family genes in colorectal cancer and unveil their immune landscape,PMC13495355,9,,LASSO+多因素Cox+WGCNA,1,1,0,1,0,1,0,0,0,0,1,CAF成纤维细胞,0.0059,0.0
+SIG132,2026,Discover oncology,Development and verification of a lipotoxicity-related gene signature for predicting prognosis and immune landscape in colorectal cancer,PMC13365090,5,,单因素Cox+多因素Cox+随机森林,1,1,0,0,0,0,0,0,0,1,0,免疫/炎症,0.0238,0.4
+SIG133,2026,Frontiers in immunology,Integrated single-cell and bulk transcriptomics identify autophagy-related immune-suppressive subtypes and a prognostic signature in colorectal cancer,PMC13139068,5,,LASSO+单因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,1,自噬,0.0069,0.0
+SIG134,2024,Oncology letters,A hot and cold tumor‑related prognostic signature for stage II colorectal cancer,PMC11240279,8,60,LASSO+单因素Cox+多因素Cox+机器学习-其他,0,1,1,0,0,0,0,0,0,0,0,未分类,0.0024,0.0
+SIG135,2026,Journal of gastrointestinal oncology,Metabolic-cell-death gene trio predicts survival and cuproptosis sensitivity in colorectal cancer,PMC13546553,3,,LASSO+单因素Cox+多因素Cox+随机森林+WGCNA,1,1,0,0,0,0,0,0,0,0,0,铜死亡,0.0199,0.3333
+SIG136,2026,Journal of gastrointestinal oncology,A nine-gene nicotine-metabolism signature predicts prognosis and characterizes the immune landscape in colon adenocarcinoma,PMC12972029,9,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0188,0.2222
+SIG138,2026,Journal of gastrointestinal oncology,Prognostic value of genes associated with metastasis and propionate metabolism in rectal cancer,PMC13546582,5,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0063,0.0
+SIG139,2025,Translational cancer research,Dietary restriction-responsive genes define prognostic subtypes and predict metastasis in colorectal cancer,PMC12686144,4,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他,1,1,0,0,0,0,0,0,0,0,0,EMT/转移,0.0031,0.0
+SIG140,2026,Discover oncology,Identification and validation of a Golgi apparatus related gene signature for prognosis prediction and immune microenvironment profiling in colorectal cancer,PMC13323481,6,633,LASSO+单因素Cox+多因素Cox+随机森林,1,1,0,0,0,0,0,0,0,1,0,免疫/炎症,0.0078,0.0
+SIG141,2025,Translational cancer research,Development and validation of a machine learning-based prognostic model using mitochondrial dysfunction-related genes for colorectal cancer patients,PMC12605350,7,473,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他,1,1,1,1,0,0,0,1,0,0,0,线粒体,0.0143,0.1429
+SIG142,2026,iScience,Machine learning algorithms develop a tumor-educated platelets-related gene signature to predict colorectal cancer prognosis and therapy response,PMC13311190,12,570,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,1,0,0,0,未分类,0.0128,0.1667
+SIG143,2025,Discover oncology,Identification of an E2Fs-based gene signature for predicting prognosis and therapeutic response in colorectal cancer,PMC12528531,6,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0047,0.0
+SIG144,2026,Discover oncology,Construction of immune related genes predictive models of elderly rectal cancer patients based on machine learning,PMC12957696,3,,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,1,0,0,0,免疫/炎症,0.0031,0.0
+SIG145,2026,Scientific reports,A network toxicology and machine learning approach to uncover the molecular machinery of bisphenol A-induced colorectal cancer,PMC13493825,12,,LASSO+机器学习-其他+WGCNA+PCA,1,0,0,0,0,0,0,1,0,0,0,未分类,0.0042,0.0833
+SIG146,2025,Frontiers in oncology,Analysis of the molecular subtypes and prognostic models of anoikis-related genes in colorectal cancer,PMC12256226,3,,LASSO+单因素Cox+多因素Cox+PCA,0,1,1,1,0,0,0,0,0,0,0,失巢凋亡,0.0084,0.0
+SIG147,2025,Frontiers in oncology,Novel mtDNA methylation-associated prognostic signatures in colorectal cancer,PMC12807941,3,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0042,0.0
+SIG148,2026,Medicine,Colorectal cancer molecular subtypes and prognostic models based on NET-related genes and oxidative stress-associated signaling,PMC13480840,8,514,LASSO+单因素Cox+多因素Cox,1,1,0,1,1,0,0,0,0,0,0,未分类,0.0121,0.125
+SIG149,2026,Journal of gastrointestinal oncology,Molecular subtyping and prognostic model construction based on endosome-related genes in colorectal cancer,PMC13188045,8,608,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0157,0.375
+SIG150,2026,Genes,"Mitotic Hub Gene Network in Colorectal Cancer: Integrated Transcriptomic, Protein-Level, and Clinical-Genomic Characterization of a Ten-Gene Signature",PMC13408991,10,,多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,0,1,0,1,0,0,0,细胞周期/增殖,0.0028,0.0
+SIG151,2026,Translational cancer research,Construction of a prognostic risk model based on colorectal cancer-specific ferroptosis genes and preliminary validation of FGFR4,PMC13190656,8,701,LASSO+单因素Cox+多因素Cox,1,1,1,1,1,1,0,0,0,0,0,铁死亡,0.002,0.0
+SIG152,2025,Frontiers in immunology,A novel liquid-liquid phase separation related gene signature including ARL6IP4 predicts prognosis and immune landscape in colorectal cancer,PMC12816288,8,542,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0074,0.0
+SIG153,2026,Translational cancer research,Tertiary lymphoid structure-related genes drive tumor microenvironment heterogeneity and prognostic disparities in left- &lt;i&gt;vs.&lt;/i&gt; right-sided colon cancer,PMC13191011,8,,LASSO+单因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,0,1,0,0,0,0,0,0,未分类,0.0035,0.0
+SIG154,2026,Translational oncology,Metastatic immune microenvironment remodeling by malignant epithelial cells drives colorectal cancer hepatic metastasis: Multi-omics insights,PMC13590056,3,120,单因素Cox+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0052,0.0
+SIG155,2026,Discover oncology,A novel lactylation-related gene signature deciphers the immunosuppressive microenvironment and stratifies precision therapy in colorectal cancer,PMC13554000,9,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,1,0,0,0,0,0,免疫/炎症,0.0042,0.0
+SIG156,2025,Frontiers in immunology,Liquid-liquid phase separation-driven molecular subtyping and prognostic modeling in colorectal cancer,PMC12827789,5,,LASSO+单因素Cox+多因素Cox+逐步回归+机器学习-其他+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0013,0.0
+SIG157,2026,Medicine,Construction and validation of a prognostic model based on anoikis-fatty acid metabolism-related genes in colorectal cancer: A retrospective cohort study,PMC12778156,5,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,1,0,脂代谢,0.0132,0.0
+SIG159,2026,Translational cancer research,A novel prognostic model for colon adenocarcinoma based on cofactor and vitamin metabolism-related genes,PMC12885891,6,,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0047,0.0
+SIG161,2025,Frontiers in oncology,Construction of a prognostic model for colorectal cancer liver metastasis based on single-cell transcriptomics and regulation of the MIF pathway,PMC12537406,4,515,多因素Cox+PCA,1,1,0,0,0,1,0,0,0,0,1,EMT/转移,0.0118,0.0
+SIG163,2025,Translational cancer research,Proteomics-based prognostic signature in colon adenocarcinoma patients with familial adenomatous polyposis,PMC12268895,4,440,LASSO+单因素Cox,0,0,1,0,0,0,0,0,0,0,0,未分类,0.0408,0.5
+SIG164,2025,BMC cancer,Identification of a mitophagy-related gene signature for predicting overall survival and response to immunotherapy in rectal cancer,PMC11706142,4,,单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,1,0,0,免疫/炎症,0.0008,0.0
+SIG165,2024,Heliyon,5-Fluorouracil resistance-based immune-related gene signature for COAD prognosis,PMC11315090,5,,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0056,0.2
+SIG166,2026,"Contemporary oncology (Poznan, Poland)",Combined analysis of metabolomics and transcriptomics reveals new indicators for the diagnosis and prognosis of colorectal cancer,PMC13137426,3,,LASSO+单因素Cox,0,0,0,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG167,2025,"Advanced science (Weinheim, Baden-Wurttemberg, Germany)",MALMPS: A Machine Learning-Based Metabolic Gene Prognostic Signature for Stratifying Clinical Outcomes and Molecular Heterogeneity in Stage II/III Colorectal Cancer,PMC12499476,3,1442,LASSO+单因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,1,0,0,0,糖酵解/代谢重编程,0.0052,0.0
+SIG168,2025,Scientific reports,A novel anoikis related gene prognostic model for colorectal cancer based on single cell sequencing and bulk transcriptome analyses,PMC12358598,9,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,1,0,0,0,0,0,0,0,失巢凋亡,0.007,0.0
+SIG169,2024,"Open medicine (Warsaw, Poland)",Identification of signatures associated with microsatellite instability and immune characteristics to predict the prognostic risk of colon cancer,PMC11669901,8,,单因素Cox+多因素Cox+逐步回归+WGCNA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0067,0.0
+SIG170,2026,Discover oncology,ATOH1 and NPAS1 are immune related prognostic biomarkers in colorectal cancer,PMC13391988,6,,单因素Cox+多因素Cox+机器学习-其他,1,1,0,0,0,1,0,0,0,0,0,免疫/炎症,0.0021,0.0
+SIG171,2026,Journal of gastrointestinal oncology,Identification and preliminary examination of prognostic genes linked to calcium metabolism in colorectal cancer,PMC13350268,4,437,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0016,0.0
+SIG172,2026,Journal of gastrointestinal oncology,Development and validation of manganese metabolism-related genes prognostic model in colorectal cancer and its immunological characteristics,PMC13188049,6,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.012,0.1667
+SIG173,2026,Journal of inflammation research,Identification of Immune-Related Genes in Predicting the Progression of Colitis-Associated Colorectal Cancer: An Integrated Bioinformatics and Experimental Validation Study,PMC13269035,5,15,LASSO+单因素Cox+WGCNA+PCA,1,0,1,0,0,0,0,0,0,0,0,免疫/炎症,0.015,0.2
+SIG175,2025,Journal of gastrointestinal oncology,Development of a prognostic risk model for colorectal cancer and association of the prognostic model with cancer stem cell and immune cell infiltration,PMC11921271,6,,LASSO,1,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.001,0.0
+SIG176,2025,Scientific reports,Integrated analysis of single-cell and bulk RNA-sequencing to predict prognosis and therapeutic response for colorectal cancer,PMC11889094,8,701,LASSO+单因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,1,未分类,0.0051,0.0
+SIG177,2024,Frontiers in immunology,A novel liquid-liquid phase separation-related gene signature for predicting prognosis in colon cancer,PMC11693697,14,,LASSO+单因素Cox+多因素Cox,0,1,0,0,0,0,0,0,0,0,0,未分类,0.006,0.0714
+SIG178,2023,Frontiers in immunology,Prognostic value of fatty acid metabolism-related genes in colorectal cancer and their potential implications for immunotherapy,PMC10693327,3,,LASSO+单因素Cox+多因素Cox,0,1,1,0,0,0,0,0,0,0,0,脂代谢,0.0178,0.3333
+SIG179,2026,Scientific reports,Deciphering oxidative stress-related heterogeneity and developing a prognostic signature for colorectal cancer,PMC13201555,12,,LASSO+单因素Cox+PCA,1,0,1,0,0,0,0,0,0,0,0,未分类,0.0063,0.0833
+SIG180,2026,Frontiers in immunology,Multi-omics profiling of sodium-overload (NECSO) programs identifies NEK8 as a central driver of colorectal cancer progression through single-cell and spatial transcriptomics,PMC12929418,5,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,1,0,0,0,0,0,0,1,免疫/炎症,0.0038,0.0
+SIG181,2026,BMC cancer,T-cell exhaustion indicator characterizes the tumor microenvironment landscape and predicts colon adenocarcinoma prognosis via integrating single-cell RNA-seq and bulk RNA-sequencing,PMC12888615,5,,LASSO+单因素Cox+随机森林+PCA,1,0,0,1,0,0,0,1,0,0,1,免疫/炎症,0.0013,0.0
+SIG182,2025,Biomedicines,Multi-Omics-Based Analysis of the Effect of Longevity Genes on the Immune Relevance of Colorectal Cancer,PMC12109330,3,689,LASSO+单因素Cox+多因素Cox+PCA,0,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0178,0.3333
+SIG183,2024,Journal of gastrointestinal oncology,Characterizing PANoptosis gene signature in prognosis and chemosensitivity of colorectal cancer,PMC11565111,4,404,LASSO+单因素Cox+多因素Cox+随机森林,1,1,1,0,0,0,0,0,0,0,0,未分类,0.04,0.5
+SIG184,2026,Journal of gastrointestinal oncology,Single-cell transcriptomics reveals the prognostic and immune infiltration significance of FOLFOX-bevacizumab treatment and lysine crotonylation characteristics in colon cancer,PMC13350010,3,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.001,0.0
+SIG185,2024,Translational oncology,Bulk and single-cell RNA sequencing analyses coupled with multiple machine learning to develop a glycosyltransferase associated signature in colorectal cancer,PMC11402624,22,,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,0,1,1,0,0,1,0,0,1,未分类,0.0097,0.0455
+SIG186,2025,Journal of Cancer,Construction of a Prognostic Model based on CSC-related Genes in Patients with Colorectal Cancer,PMC12036084,19,450,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0068,0.1053
+SIG187,2026,BMC gastroenterology,Molecular subtyping of colorectal cancer based on inositol metabolism identifies PLCG2 as a key prognostic biomarker,PMC13224667,4,70,LASSO+多因素Cox+PCA,1,1,0,1,0,0,0,0,0,0,0,免疫/炎症,0.0024,0.0
+SIG188,2026,BMC cancer,UHRF2 related to sumoylation : assessment of its role in immune suppression and therapeutic potential in colorectal cancer,PMC13059483,6,283,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,1,1,0,1,0,0,0,0,0,0,0,泛素化/蛋白酶体,0.001,0.0
+SIG189,2026,ImmunoTargets and therapy,A Novel Prognostic Signature Composed of Autophagy and Liver Metastasis in Colorectal Cancer: Comprehensive Analysis of Bulk and Single-Cell Transcriptomic Data,PMC13033421,6,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,1,自噬,0.0157,0.3333
+SIG190,2023,BMC bioinformatics,Seven bacterial response-related genes are biomarkers for colon cancer,PMC10026208,7,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,0,1,0,0,0,0,0,未分类,0.0085,0.1429
+SIG191,2025,International journal of cancer,The prognostic potential of RNA in stage II colon cancer: Insights from a screened multicenter population-based cohort study,PMC12375848,3,89,LASSO+多因素Cox+机器学习-其他,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0,0.0
+SIG192,2025,Discover oncology,Integration analysis of single-cell and spatial transcriptomics identifies prognostic genes associated with neddylation in colorectal cancer,PMC12748437,3,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,1,0,0,0,0,0,1,未分类,0.0031,0.0
+SIG193,2024,PeerJ,Identification and validation of calcium extrusion-related genes prognostic signature in colon adenocarcinoma,PMC11246022,7,585,未说明,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0009,0.0
+SIG194,2025,Frontiers in oncology,Prognostic value and experimental validation of atherosclerosis-derived pathogenic genes in colorectal cancer,PMC12832349,6,,LASSO+单因素Cox+WGCNA+PCA,1,0,1,0,0,0,0,0,0,0,0,未分类,0.0073,0.0
+SIG195,2026,Scientific reports,The significance of immunogenic cell death related prognostic gene markers in colorectal cancer prognosis and antitumor immunity,PMC12855974,12,416,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0055,0.0
+SIG196,2026,Biochemistry and biophysics reports,Unraveling the role of mitochondrial unfolded protein response in colorectal cancer,PMC12704202,4,,LASSO+单因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,线粒体,0.0102,0.25
+SIG197,2025,Translational cancer research,Immunogenomic classification and nomogram development and validation for colorectal cancer survival prediction based on immune-related genes,PMC12554512,4,,LASSO+多因素Cox+WGCNA,1,1,0,0,0,1,0,0,0,1,0,免疫/炎症,0.0047,0.0
+SIG198,2025,Discover oncology,Neddylation related gene signature for prognostic biomarkers in colorectal cancer with integrated bioinformatics and experimental analysis,PMC12748476,3,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG199,2025,Infectious agents and cancer,Unveiling prognostic value of JAK/STAT signaling pathway related genes in colorectal cancer: a study of Mendelian randomization analysis,PMC11806682,5,,LASSO+单因素Cox+多因素Cox+WGCNA,0,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0019,0.0
+SIG200,2026,Journal of translational medicine,Integrated single-cell and spatial transcriptomic analysis reveals mCAF-SPP1⁺ macrophage-T cell crosstalk shaping immunosuppressive niches in colorectal cancer liver metastasis,PMC13088502,3,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,1,0,0,0,0,0,0,1,免疫/炎症,0.0031,0.0
+SIG201,2024,Cancer biomarkers : section A of Disease markers,Tumor immune microenvironment of colorectal cancer identifies novel prognostic signature and potential therapeutic drugs,PMC11905983,4,,LASSO+单因素Cox+多因素Cox+随机森林,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0024,0.0
+SIG202,2025,"Open medicine (Warsaw, Poland)","A machine learning-based prognostic model integrating mRNA stemness index, hypoxia, and glycolysis‑related biomarkers for colorectal cancer",PMC12452079,29,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA+PCA,1,1,0,1,0,0,0,1,0,0,0,缺氧,0.0037,0.0345
+SIG203,2025,PloS one,Identification of cuproptosis and ferroptosis-related subtypes and development of a prognostic signature in colon cancer,PMC11781745,5,524,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,1,1,1,0,0,0,0,0,0,铁死亡,0.0088,0.0
+SIG204,2025,Frontiers in oncology,Overexpression of MMP14 is associated with poor prognosis and immune cell infiltration in colon cancer,PMC12062125,3,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0146,0.3333
+SIG205,2026,Discover oncology,An epithelial mesenchymal transition associated gene signature stratifies risk of ulcerative colitis associated colorectal cancer,PMC13486420,7,,单因素Cox+多因素Cox+逐步回归+随机森林,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0219,0.2857
+SIG206,2025,BMC cancer,Development of a prognostic risk model for colorectal cancer based on microsatellite stability-associated genes,PMC12487216,11,556,单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.008,0.0909
+SIG207,2025,Scientific reports,Integrated singlecell and bulk RNA-seq analysis identifies a prognostic signature related to inflammation in colorectal cancer,PMC11701073,13,456,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0118,0.0769
+SIG208,2025,Scientific reports,PDT-regulated immune gene prognostic model reveals tumor microenvironment in colorectal cancer liver metastases,PMC12003684,7,,LASSO+单因素Cox+WGCNA+PCA,1,0,1,1,1,0,0,0,0,0,0,免疫/炎症,0.0134,0.1429
+SIG209,2025,European journal of medical research,Unveiling the prognostic significance of RNA editing-related genes in colon cancer: evidence from bioinformatics and experiment,PMC11823094,5,,LASSO+单因素Cox+多因素Cox,0,1,0,1,1,1,0,0,0,0,0,未分类,0.0006,0.0
+SIG210,2026,Stem cells international,FAP as a Clinical Biomarker: FAP+ CAFs Orchestrate an Immunosuppressive Stem Cell Niche via the COL1A1/2-CD44 Axis in Colon Cancer,PMC13446019,13,,LASSO+单因素Cox+PCA,1,0,0,1,1,0,0,0,0,0,0,免疫/炎症,0.0087,0.0769
+SIG211,2025,International journal of genomics,A Novel Mitochondria-Associated Programmed Cell Death-Related Prognostic Model and Validation of Oncogene INHBB in Colorectal Cancer,PMC12648302,4,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,线粒体,0.0086,0.0
+SIG212,2026,Translational cancer research,Multiomics study on the tertiary lymphatic structure signature of colon cancer,PMC12971587,3,449,LASSO+单因素Cox+多因素Cox+PCA,0,1,1,1,0,0,0,0,0,0,0,未分类,0.0199,0.0
+SIG213,2025,Discover oncology,Bioinformatics mining and experimental validation of prognostic biomarkers in colorectal cancer,PMC12373585,5,556,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,1,1,1,0,0,0,0,0,未分类,0.0364,0.6
+SIG214,2025,Frontiers in immunology,TRP-related gene signatures predict survival and the immune microenvironment in rectal cancer: a comprehensive bioinformatics study,PMC12436457,5,,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0019,0.0
+SIG215,2025,Journal of cell communication and signaling,Risk model of liquid-liquid phase separation-related genes reveals the prognosis and tumor microenvironment characteristics of colorectal cancer,PMC12582976,4,,LASSO+单因素Cox+多因素Cox+随机森林+PCA,1,1,1,1,0,0,0,0,0,0,0,未分类,0.0008,0.0
+SIG216,2026,Discover oncology,Integrative machine learning models reveal immune and metabolic signatures predictive of colorectal cancer prognosis,PMC13187096,4,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+PCA,1,1,0,0,0,0,0,1,0,0,0,免疫/炎症,0.0086,0.0
+SIG217,2025,Discover oncology,Development and validation of a disulfidptosis-related prognostic model for colorectal cancer using multi-omics analysis,PMC11914417,8,,LASSO+单因素Cox+多因素Cox+PCA,0,1,1,0,0,0,0,0,0,1,0,未分类,0.0165,0.125
+SIG218,2024,Technology in cancer research & treatment,Identification of a 5-Gene Cuproptosis Signature Predicting the Prognosis for Colon Adenocarcinoma Based on WGCNA,PMC11135095,4,125,LASSO+单因素Cox+WGCNA+PCA,1,0,0,0,0,0,0,0,1,0,0,铜死亡,0.0204,0.25
+SIG219,2024,Technology in cancer research & treatment,A Pyroptosis-Related Gene Signature Predicts Prognosis and Tumor Immune Microenvironment in Colorectal Cancer,PMC11331578,8,352,LASSO+单因素Cox+多因素Cox,0,1,0,0,0,0,0,0,0,0,0,焦亡,0.0027,0.0
+SIG220,2025,Discover oncology,Using single cell sequencing to investigate tumor microenvironment differences in left and right colon cancer and prognosis-related core genes,PMC12705519,7,,单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0246,0.1429
+SIG221,2023,Frontiers in oncology,Integrative analysis reveals a four-gene signature for predicting survival and immunotherapy response in colon cancer patients using bulk and single-cell RNA-seq data,PMC10644708,4,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0157,0.25
+SIG222,2024,Heliyon,Development and validation of prognostic signatures of NAD+ metabolism and immune-related genes in colorectal cancer,PMC11315184,3,372,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0094,0.0
+SIG223,2023,Frontiers in genetics,Identification and validation of a novel stress granules-related prognostic model in colorectal cancer,PMC10187888,4,573,单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0243,0.25
+SIG224,2025,Frontiers in immunology,Machine learning identifies PYGM as a macrophage polarization-linked metabolic biomarker in rectal cancer prognosis,PMC12378483,3,,LASSO+单因素Cox+多因素Cox+随机森林+机器学习-其他+WGCNA+PCA,1,1,1,0,0,0,0,1,0,0,0,免疫/炎症,0.0366,0.3333
+SIG225,2026,Frontiers in molecular biosciences,Disulfidptosis-related genes signature predicts prognosis and immune microenvironment in colon cancer,PMC12890678,5,88,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG226,2025,Discover oncology,SUMOylation-regulated genes in colon cancer: expression patterns and clinical implications,PMC12092877,5,206,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,泛素化/蛋白酶体,0.0019,0.0
+SIG227,2025,Current issues in molecular biology,Integrative Bioinformatics and Experimental Validation Establish CCNB1 as a Potential Biomarker for Diagnosis and Prognosis in Colorectal Cancer,PMC12731441,8,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0118,0.125
+SIG228,2025,Discover oncology,Integration of single-cell and bulk RNA-sequencing data to construct and validate a signature based on NK cell marker genes to predict immunotherapy response and prognosis in colorectal cancer,PMC11805743,6,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0052,0.0
+SIG229,2025,Discover oncology,Prognostic value of brown adipocyte-related genes in colorectal cancer: a multi-omics and Mendelian randomization study,PMC12819916,4,669,LASSO+单因素Cox+多因素Cox+随机森林+WGCNA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0024,0.0
+SIG230,2024,Scientific reports,Integration of single-cell sequencing and bulk RNA-seq to identify and develop a prognostic signature related to colorectal cancer stem cells,PMC11133358,16,,LASSO+单因素Cox+多因素Cox+随机森林+PCA,1,1,1,1,0,0,0,0,0,0,1,干细胞性,0.0098,0.0625
+SIG231,2025,PeerJ,Mito-fission gene prognostic model for colorectal cancer,PMC12182055,3,,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA,0,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0042,0.0
+SIG232,2024,Medicine,Systemic immune profiling analysis identifying M2-TAM related genes predicted colon cancer prognosis and chemotherapy responses,PMC11688056,7,,LASSO+单因素Cox+逐步回归+WGCNA+PCA,1,0,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0134,0.1429
+SIG233,2025,Scientific reports,Comprehensive characterization of the molecular feature of acetylation in colorectal cancer using integrated single-cell and bulk RNA sequencing,PMC12457583,10,348,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0003,0.0
+SIG234,2023,Heliyon,Prognostic signature of colorectal cancer based on uric acid-related genes,PMC10782177,13,,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,0,1,0,0,0,1,0,0,0,0,0,未分类,0.0166,0.0769
+SIG235,2024,Frontiers in immunology,An inflammation-related subtype classification for analyzing tumor microenvironment and clinical prognosis in colorectal cancer,PMC11089903,6,534,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,1,0,0,0,免疫/炎症,0.0026,0.0
+SIG236,2025,Discover oncology,Multi-omics analysis reveals different cholesterol metabolism subtypes in colorectal cancer,PMC12644335,5,,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,1,0,0,0,0,0,0,0,0,脂代谢,0.015,0.2
+SIG237,2021,Aging,Development and validation of prognostic model based on the analysis of autophagy-related genes in colon cancer,PMC8351728,6,,单因素Cox+多因素Cox+PCA,0,1,1,0,0,0,0,0,0,1,0,自噬,0.0084,0.0
+SIG238,2024,Discover oncology,Identification and validation of a prognostic signature based on six immune-related genes for colorectal cancer,PMC11133253,6,126,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0068,0.0
+SIG239,2025,BMC cancer,Development of a novel angiogenesis-associated gene model for prognosis prediction in colorectal cancer,PMC12542104,7,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,1,0,0,0,0,0,0,0,血管生成,0.0148,0.1429
+SIG240,2025,Scientific reports,Oxidative stress gene expression in ulcerative colitis: implications for colon cancer biomarker discovery,PMC12218319,6,17,LASSO+单因素Cox+多因素Cox+机器学习-其他,1,1,0,0,0,1,0,0,0,0,0,未分类,0.0287,0.3333
+SIG241,2025,Frontiers in oncology,Identification of a signature gene set for oxaliplatin sensitivity prediction in colorectal cancer,PMC12696748,4,,LASSO+多因素Cox+随机森林+机器学习-其他,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0008,0.0
+SIG242,2024,Scientific reports,Comprehensive analyses of solute carrier family members identify SLC12A2 as a novel therapy target for colorectal cancer,PMC10891168,6,435,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0078,0.1667
+SIG243,2024,BMC genomics,Development and validation of epigenetic modification-related signals for the diagnosis and prognosis of colorectal cancer,PMC10782594,8,,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,表观/染色质,0.0012,0.0
+SIG244,2024,Scientific reports,Disulfidptosis-related prognostic signature correlates with immunotherapy response in colorectal cancer,PMC10762008,13,585,LASSO+单因素Cox+多因素Cox+机器学习-其他,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0043,0.0
+SIG245,2026,"Open medicine (Warsaw, Poland)",Comprehensive analysis of m6A RNA methylation regulators for prognostic risk stratification and immune microenvironment characterization in colorectal cancer,PMC13150367,3,,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,m6A甲基化,0.0052,0.0
+SIG246,2025,Translational gastroenterology and hepatology,Development of a novel prognostic prediction model using mitochondrial-related genes and single-cell sequencing data for colorectal carcinoma,PMC12596427,5,,单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,0,1,线粒体,0.01,0.0
+SIG247,2025,Translational cancer research,Molecular dynamics simulation and single-cell and spatial transcriptomics validate immune and prognostic biomarkers in colorectal cancer and construct a clinical prognostic model,PMC12605414,3,,LASSO+单因素Cox+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0219,0.3333
+SIG248,2026,Frontiers in oncology,The potential of mitochondrial permeability transition-driven necrosis-related genes in prognostic evaluation of colorectal cancer patients,PMC13006312,5,268,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,线粒体,0.005,0.0
+SIG249,2025,Frontiers in immunology,CD47 expression in solid tumors correlates with phagocytic tumor-associated macrophage gene signature,PMC12708551,4,,机器学习-其他,0,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG250,2025,Frontiers in pharmacology,Integrated network pharmacology and experimental verification to reveal the mechanisms of curcumin in the treatment of colorectal cancer,PMC12868254,4,,LASSO+单因素Cox,0,0,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0196,0.5
+SIG251,2024,Discover oncology,Predictive role of oxidative stress-related genes in colon cancer: a retrospective cohort study based on The Cancer Genome Atlas,PMC11297001,14,,LASSO+单因素Cox+多因素Cox,0,1,1,0,0,0,0,0,0,0,0,未分类,0.0074,0.0714
+SIG252,2024,Frontiers in immunology,Chemokine family significance and prognostic value in colorectal cancer,PMC11743568,3,,多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0136,0.3333
+SIG253,2024,Journal of cancer research and clinical oncology,Identification of a distinctive immunogenomic gene signature in stage-matched colorectal cancer,PMC11646222,3,435,PCA,1,0,0,0,0,0,0,0,0,0,1,免疫/炎症,0.0052,0.0
+SIG254,2025,Cancer management and research,Advancing Prognostic Accuracy Beyond Classical N Staging in Colorectal Cancer: An Observational Cohort Study to Define a Lymph Node Ratio Based Risk Score,PMC12628777,3,1026,多因素Cox,0,1,0,0,0,0,0,0,0,0,0,未分类,0.0042,0.0
+SIG255,2025,Translational oncology,The KRAS-G12D mutation drives venous thromboembolism (VTE) and colorectal cancer progression via MAPK/ERK signaling,PMC12481119,3,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,1,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG256,2025,Clinical and experimental medicine,Integrate bulk RNA and single-cell sequencing to identify prognostic genes associated with dietary restriction and circadian rhythm in colorectal cancer and conduct experimental verification,PMC12712030,5,544,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,1,1,昼夜/节律,0.0207,0.6
+SIG257,2025,Human vaccines & immunotherapeutics,The construction of a prognostic nomogram model for colorectal cancer and the prediction of immune characteristics and immune treatment responses based on the bioinformatics analysis of soluble mediator-related genes,PMC12439576,4,,LASSO+单因素Cox+多因素Cox+机器学习-其他,1,1,1,0,0,0,0,0,0,1,0,免疫/炎症,0.0008,0.0
+SIG258,2022,Evidence-based complementary and alternative medicine : eCAM,A Novel Pyroptosis-Associated Gene Signature to Predict Prognosis in Patients with Colorectal Cancer,PMC9129977,6,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,焦亡,0.0021,0.0
+SIG259,2024,Translational cancer research,Identification and validation of endoplasmic reticulum stress-related genes that enhance immunotherapy in colon cancer,PMC11319978,6,,LASSO+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0136,0.3333
+SIG260,2022,Frontiers in genetics,"Exploring the Relationship Between Senescence and Colorectal Cancer in Prognosis, Immunity, and Treatment",PMC9240351,5,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,0,1,0,0,0,0,0,免疫/炎症,0.0088,0.0
+SIG261,2023,International journal of general medicine,Identification of Hypoxia-Associated Signature in Colon Cancer to Assess Tumor Immune Microenvironment and Predict Prognosis Based on 14 Hypoxia-Associated Genes,PMC10281280,14,,LASSO+单因素Cox+多因素Cox,1,1,1,1,0,0,0,0,0,0,0,缺氧,0.0134,0.1429
+SIG262,2025,Oncology letters,Comprehensive analysis of a palmitoylation-related prognostic signature in colorectal cancer: Implications for immune therapy and personalized treatment,PMC12117421,6,418,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0068,0.1667
+SIG263,2022,Frontiers in immunology,A novel enterocyte-related 4-gene signature for predicting prognosis in colon adenocarcinoma,PMC9755665,4,473,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG264,2025,Clinical and experimental medicine,Identification of a metabolic-immune signature associated with prognosis in colon cancer and exploration of potential predictive efficacy of immunotherapy response,PMC11762008,6,417,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0214,0.3333
+SIG265,2025,Biological procedures online,FNDC5 and ACOX1 as Biomarkers of Peroxisomal Activity with Contrast Outcomes in Colon Adenocarcinoma,PMC12706935,7,,LASSO+单因素Cox+逐步回归+随机森林+PCA,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG266,2024,Scientific reports,Construction and verification of a histone deacetylases-related prognostic signature model for colon cancer,PMC11026370,5,,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,表观/染色质,0.0013,0.0
+SIG267,2022,Frontiers in genetics,Identification of a novel lipid metabolism-related gene signature for predicting colorectal cancer survival,PMC9485806,11,,单因素Cox+多因素Cox,0,1,1,0,0,0,0,0,0,0,0,脂代谢,0.0111,0.0909
+SIG268,2024,BMC medical genomics,Identification of a novel lymphangiogenesis signature associated with immune cell infiltration in colorectal cancer based on bioinformatics analysis,PMC10763205,6,409,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,1,1,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG269,2025,Cell death & disease,PLIN2 promotes colorectal cancer progression through CD36-mediated epithelial-mesenchymal transition,PMC12246428,3,596,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,0,0,0,0,0,0,0,0,0,EMT/转移,0.0,0.0
+SIG270,2023,Frontiers in cell and developmental biology,Neurotransmitter receptor-related gene signature as potential prognostic and therapeutic biomarkers in colorectal cancer,PMC10720326,4,,LASSO+随机森林+机器学习-其他+WGCNA,1,0,0,0,0,0,0,1,1,0,0,未分类,0.0031,0.0
+SIG271,2025,International journal of molecular sciences,Identification of Colorectal Cancer-Related RNA Markers from Whole Blood Using Integrated Bioinformatics Analysis,PMC12692440,5,,随机森林+机器学习-其他+PCA,1,0,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0006,0.0
+SIG272,2025,PeerJ,Transformative insights from transcriptome analysis of colorectal cancer patient tissues: identification of four key prognostic genes,PMC12374693,4,161,单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0024,0.0
+SIG273,2023,Translational cancer research,Extracellular matrix-based gene signature for predicting prognosis in colon cancer and immune microenvironment,PMC10007896,4,119,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,1,0,0,0,0,0,免疫/炎症,0.011,0.25
+SIG274,2023,Frontiers in oncology,A pyroptosis-related gene signature that predicts immune infiltration and prognosis in colon cancer,PMC10369052,8,25,LASSO+单因素Cox+多因素Cox+逐步回归+机器学习-其他+PCA,1,1,0,1,0,0,0,0,0,0,0,焦亡,0.0153,0.25
+SIG275,2025,Frontiers in immunology,Identification of a coagulation-related classification and signature that predict disease heterogeneity for colorectal cancer and pan-cancer patients,PMC12328357,4,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0298,0.25
+SIG276,2025,Discover oncology,Immune gene features and prognosis in colorectal cancer: insights from ssGSEA typing,PMC11807041,12,62,LASSO+单因素Cox,1,0,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0086,0.0833
+SIG277,2022,BMC bioinformatics,Novel six-gene prognostic signature based on colon adenocarcinoma immune-related genes,PMC9552517,6,388,多因素Cox+WGCNA,1,1,1,0,0,0,0,0,1,0,0,免疫/炎症,0.0089,0.1667
+SIG278,2024,"Cancer reports (Hoboken, N.J.)",The exploration of mitochondrial-related features helps to reveal the prognosis and immunotherapy methods of colorectal cancer,PMC10809275,5,303,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0132,0.2
+SIG279,2022,Frontiers in genetics,Exploration of Reduced Mitochondrial Content-Associated Gene Signature and Immunocyte Infiltration in Colon Adenocarcinoma by an Integrated Bioinformatic Analysis,PMC9024084,7,,LASSO+单因素Cox+多因素Cox+逐步回归,0,1,1,1,0,0,0,0,0,0,0,免疫/炎症,0.004,0.0
+SIG280,2024,Translational cancer research,Construction and validation of prognostic model for colorectal mucinous adenocarcinoma patients and identification of a new prognosis related gene <i>FAM174B</i>,PMC11543054,4,,LASSO+WGCNA+PCA,0,0,1,0,0,0,0,0,0,0,0,未分类,0.0,0.0
+SIG281,2025,Current issues in molecular biology,Identification and Validation of a Macrophage Phagocytosis-Related Gene Signature for Prognostic Prediction in Colorectal Cancer (CRC),PMC12562277,4,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0063,0.0
+SIG282,2023,Frontiers in surgery,A novel strategy for precise prognosis management and treatment option in colon adenocarcinoma with TP53 mutations,PMC9947352,16,94,LASSO+单因素Cox+多因素Cox+随机森林,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0006,0.0
+SIG283,2022,Scientific reports,A mitophagy-related gene signature associated with prognosis and immune microenvironment in colorectal cancer,PMC9636133,10,354,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0,0.0
+SIG284,2023,Journal of Cancer,A Prognostic Model of Angiogenesis and Neutrophil Extracellular Traps Related Genes Manipulating Tumor Microenvironment in Colon Cancer,PMC10367930,3,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,0,1,1,0,0,0,0,0,0,0,0,NETs中性粒细胞胞外诱捕网,0.0554,0.6667
+SIG285,2024,Scientific reports,In-depth analysis of lymph node metastasis-related sialylated protein profiling and their clinical and biological significance in colorectal cancer using mass spectrometry and multi-omics technologies,PMC11574123,9,,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,0,0,0,0,0,0,0,免疫/炎症,0.0052,0.0
+SIG286,2024,Heliyon,The prognostic model and immune landscape based on cancer-associated fibroblast features for patients with locally advanced rectal cancer,PMC11000021,5,195,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0019,0.0
+SIG287,2022,Vaccines,Integration of Bulk and Single-Cell RNA-Seq Data to Construct a Prognostic Model of Membrane Tension-Related Genes for Colon Cancer,PMC9506318,3,427,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,1,未分类,0.0387,0.3333
+SIG288,2025,Human mutation,AIF1L as a Ferroptosis-Linked Biomarker in Microsatellite States-Driven Colorectal Cancer: Functional and Diagnostic Insights From Multiomics Analysis,PMC12534154,5,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,铁死亡,0.01,0.0
+SIG289,2024,Heliyon,Identification and validation of a novel 17 coagulation-related genes signature for predicting prognostic risk in colorectal cancer,PMC11233961,17,170,单因素Cox+多因素Cox+逐步回归,1,1,1,0,1,0,1,0,0,0,0,未分类,0.0052,0.0
+SIG290,2023,Frontiers in oncology,Establishment and validation of a ferroptosis-related signature predicting prognosis and immunotherapy effect in colon cancer,PMC10243598,3,43,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,1,0,1,0,0,0,0,0,铁死亡,0.0313,0.6667
+SIG291,2024,International journal of medical sciences,Construction and Validation of Novel Ferroptosis-related Risk Score Signature and Prognostic Prediction Nomogram for Patients with Colorectal Cancer,PMC11103399,3,619,LASSO+多因素Cox+随机森林,0,1,1,0,0,0,0,0,0,1,0,铁死亡,0.023,0.3333
+SIG292,2024,Nature communications,Plasma proteomic and polygenic profiling improve risk stratification and personalized screening for colorectal cancer,PMC11473805,15,,LASSO+PCA,1,0,1,1,0,0,0,0,0,0,0,未分类,0.0006,0.0
+SIG293,2023,Frontiers in oncology,Construction of a prognostic signature associated with liver metastases for prognosis and immune response prediction in colorectal cancer,PMC10411999,7,622,LASSO+单因素Cox+多因素Cox,0,1,0,1,1,0,0,0,0,0,0,免疫/炎症,0.0085,0.1429
+SIG294,2023,Frontiers in oncology,Construction of a DDR-related signature for predicting of prognosis in metastatic colorectal carcinoma,PMC9931195,4,392,单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0008,0.0
+SIG295,2025,Scientific reports,Development of a prognostic prediction model based on damage-associated molecular pattern for colorectal cancer applying bulk RNA-seq analysis,PMC12267444,9,,LASSO+单因素Cox+多因素Cox+逐步回归,0,1,1,0,0,0,0,0,0,0,0,细胞周期/增殖,0.0101,0.2222
+SIG296,2021,World journal of surgical oncology,Identification of a prognostic gene signature of colon cancer using integrated bioinformatics analysis,PMC7807455,11,432,LASSO+单因素Cox+多因素Cox+逐步回归+WGCNA,1,1,1,0,0,0,0,0,1,0,0,未分类,0.0066,0.0909
+SIG297,2025,Communications biology,Cancer-associated fibroblasts shape the formation of budding cancer cells at the invasive front of human colorectal cancer,PMC12441128,11,,PCA,0,0,0,0,0,0,0,0,0,0,0,CAF成纤维细胞,0.0,0.0
+SIG298,2022,Frontiers in public health,A Prognostic Model for Colon Adenocarcinoma Patients Based on Ten Amino Acid Metabolism Related Genes,PMC9197389,9,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,氨基酸代谢,0.0052,0.0
+SIG300,2022,BioMed research international,Identification of a 5-Nutrient Stress-Sensitive Gene Signature to Predict Survival for Colorectal Cancer,PMC9039781,5,,单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0013,0.0
+SIG301,2024,Translational cancer research,Construction of a new prognostic model for colorectal cancer based on bulk RNA-seq combined with The Cancer Genome Atlas data,PMC11231782,7,,LASSO,1,0,0,1,0,0,0,0,0,0,0,免疫/炎症,0.0058,0.0
+SIG302,2024,BMC cancer,Constructing a prognostic model for colon cancer: insights from immunity-related genes,PMC11197172,6,118,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,1,1,0,0,0,0,0,0,免疫/炎症,0.0047,0.0
+SIG303,2024,World journal of gastrointestinal oncology,Four centrosome-related genes to predict the prognosis and drug sensitivity of patients with colon cancer,PMC11099447,3,,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0031,0.0
+SIG304,2024,Functional & integrative genomics,"Targeting nucleotide metabolic pathways in colorectal cancer by integrating scRNA-seq, spatial transcriptome, and bulk RNA-seq data",PMC11004054,4,,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,1,0,0,0,0,0,0,0,1,免疫/炎症,0.0165,0.0
+SIG305,2025,Discover oncology,ZNF385A was identified as a novel colorectal cancer-related functional gene by analysis of the interaction and immune characteristics of oxidative stress and the inflammatory response,PMC11893970,7,413,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0139,0.1429
+SIG306,2022,Disease markers,A Novel Pyroptosis-Related Prognostic Signature for Risk Stratification and Clinical Prognosis in Clear Cell Renal Cell Carcinoma,PMC8927973,11,,未说明,0,0,1,0,0,0,0,0,0,1,0,焦亡,0.0026,0.0
+SIG307,2024,Scientific reports,Identification of a novel macrophage-related prognostic signature in colorectal cancer,PMC10837438,13,,LASSO+单因素Cox+多因素Cox+机器学习-其他+WGCNA+PCA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0224,0.3077
+SIG308,2023,Medicine,CAF signature predicts the prognosis of colorectal cancer patients: A retrospective study based on bulk RNA sequencing and single-cell RNA sequencing data,PMC9997814,5,,LASSO+单因素Cox+多因素Cox,1,1,0,1,0,0,0,0,0,0,1,未分类,0.0069,0.0
+SIG309,2025,Biomedicines,Migrasome-Related Genes as Potential Prognosis and Immunotherapy Response Predictors for Colorectal Cancer,PMC12024535,3,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0408,0.3333
+SIG310,2024,Translational oncology,Comprehensive analysis and experimental verification of the mechanism of action of T cell-mediated tumor-killing related genes in Colon adenocarcinoma,PMC10907202,4,,LASSO+单因素Cox+多因素Cox+机器学习-其他+PCA,1,1,1,0,0,0,0,0,0,0,0,未分类,0.0251,0.25
+SIG311,2023,Scientific reports,Integrated single-cell and bulk RNA sequencing analysis identifies a prognostic signature related to ferroptosis dependence in colorectal cancer,PMC10403602,5,,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,1,1,1,0,0,0,0,0,1,铁死亡,0.0301,0.4
+SIG312,2024,Frontiers in oncology,"Identification of a basement membrane-related gene signature for predicting prognosis, immune infiltration, and drug sensitivity in colorectal cancer",PMC11246870,9,,LASSO+单因素Cox+多因素Cox+逐步回归+随机森林+机器学习-其他+PCA,0,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0181,0.2222
+SIG313,2024,Biomedicines,Multi-Algorithm-Integrated Tertiary Lymphoid Structure Gene Signature for Immune Landscape Characterization and Prognosis in Colorectal Cancer Patients,PMC11592260,3,,LASSO+单因素Cox+多因素Cox+逐步回归+机器学习-其他+PCA,1,1,0,0,0,0,0,0,0,0,0,免疫/炎症,0.0063,0.0
+SIG314,2023,Cancers,Proteome-Wide Analysis Reveals TFEB Targets for Establishment of a Prognostic Signature to Predict Clinical Outcomes of Colorectal Cancer,PMC9913156,8,,LASSO+单因素Cox+PCA,1,0,0,1,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0161,0.125
+SIG315,2024,Heliyon,Classification of molecular subtypes for colorectal cancer and development of a prognostic model based on necroptosis-related genes,PMC10909728,8,437,LASSO+单因素Cox+多因素Cox+WGCNA,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0031,0.0
+SIG316,2025,Discover oncology,Meta_B cells: a computationally identified candidate immunosuppressive driver of gastric cancer metastasis revealed by single-cell analysis and machine learning,PMC12328883,10,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,1,1,1,1,0,0,0,1,0,0,1,免疫/炎症,0.0,0.0
+SIG317,2023,IET systems biology,A novel investigation into an E2F transcription factor-related prognostic model with seven signatures for colon cancer patients,PMC10439494,7,,LASSO+单因素Cox+多因素Cox+PCA,1,1,0,0,0,0,0,0,0,0,0,未分类,0.0085,0.1429
+SIG318,2020,Frontiers in oncology,Development and Clinical Validation of a Novel 4-Gene Prognostic Signature Predicting Survival in Colorectal Cancer,PMC7251179,4,231,单因素Cox+随机森林+PCA,1,0,0,0,0,0,0,0,0,0,0,未分类,0.0063,0.0
+SIG319,2022,Frontiers in surgery,A novel prognostic model based on urea cycle-related gene signature for colorectal cancer,PMC9633963,8,590,LASSO+单因素Cox+多因素Cox,1,1,1,1,0,0,0,0,0,0,0,未分类,0.0341,0.625
+SIG320,2023,Aging,Integrating scRNA-seq and bulk RNA-seq to characterize infiltrating cells in the colorectal cancer tumor microenvironment and construct molecular risk models,PMC10756133,8,1558,LASSO+单因素Cox+多因素Cox+PCA,1,1,1,0,0,1,0,0,0,0,0,未分类,0.0114,0.125
+SIG321,2024,Frontiers in oncology,Identification of key programmed cell death genes for predicting prognosis and treatment sensitivity in colorectal cancer,PMC11603958,3,65,LASSO+单因素Cox+多因素Cox+逐步回归,1,1,1,0,0,0,0,0,0,0,0,EMT/转移,0.0178,0.3333
+SIG322,2024,World journal of clinical oncology,Identification and validation of a pyroptosis-related prognostic model for colorectal cancer based on bulk and single-cell RNA sequencing data,PMC10915942,7,,LASSO+单因素Cox+多因素Cox+WGCNA+PCA,0,1,1,1,0,0,0,0,0,0,1,焦亡,0.0045,0.0
+SIG323,2021,Frontiers in oncology,Identification of Five Glycolysis-Related Gene Signature and Risk Score Model for Colorectal Cancer,PMC7969881,5,379,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0201,0.2
+SIG324,2023,Oncology research,Transient receptor potential channels as predictive marker and potential indicator of chemoresistance in colon cancer,PMC10767253,3,,单因素Cox+多因素Cox+逐步回归+机器学习-其他,1,1,1,0,0,1,0,0,0,0,0,未分类,0.0031,0.0
+SIG325,2024,iScience,Experimental prognostic model integrating N6-methyladenosine-related programmed cell death genes in colorectal cancer,PMC10829884,3,749,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,m6A甲基化,0.0251,0.3333
+SIG326,2021,Frontiers in genetics,A Ferroptosis-Related Gene Signature Identified as a Novel Prognostic Biomarker for Colon Cancer,PMC8280527,9,585,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,铁死亡,0.0049,0.1111
+SIG327,2024,The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology,Identification of a Novel 4-gene Prognostic Model Related to Neutrophil Extracellular Traps for Colorectal Cancer,PMC11562497,3,,LASSO+单因素Cox+多因素Cox,1,1,0,0,0,0,0,0,0,0,0,NETs中性粒细胞胞外诱捕网,0.0,0.0
+SIG328,2025,Frontiers in immunology,A multi-omic analysis reveals a predictive value of tertiary lymphoid structures in improving the prognosis of colorectal cancer patients with BRAF mutation,PMC12434122,9,200,LASSO+单因素Cox,1,0,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0049,0.0
+SIG329,2022,Translational oncology,Identification of a 5-gene-based signature to predict prognosis and correlate immunomodulators for rectal cancer,PMC9493070,5,,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0,0.0
+SIG330,2021,Oxidative medicine and cellular longevity,Identification of a Tumor Microenvironment-Related Gene Signature Indicative of Disease Prognosis and Treatment Response in Colon Cancer,PMC8420973,16,385,单因素Cox+多因素Cox+逐步回归,0,1,1,0,0,0,0,0,0,0,0,未分类,0.0071,0.0625
+SIG331,2023,BMC cancer,A novel nomogram based on cell cycle-related genes for predicting overall survival in early-onset colorectal cancer,PMC10303343,4,81,LASSO+单因素Cox+多因素Cox+逐步回归+PCA,1,1,0,0,0,0,0,0,0,1,0,细胞周期/增殖,0.0024,0.0
+SIG332,2023,Translational cancer research,A WGCNA-based cancer-associated fibroblast risk signature in colorectal cancer for prognosis and immunotherapy response,PMC10583018,3,,LASSO+单因素Cox+WGCNA+PCA,1,0,1,1,0,0,0,0,1,0,0,CAF成纤维细胞,0.0,0.0
+SIG334,2022,Human genomics,A glycolysis-related two-gene risk model that can effectively predict the prognosis of patients with rectal cancer,PMC8812245,4,,单因素Cox+多因素Cox+PCA,1,1,1,0,0,0,0,0,0,0,0,糖酵解/代谢重编程,0.0047,0.0
+SIG335,2022,Frontiers in bioengineering and biotechnology,Identification of the prognostic signature based on genomic instability-related alternative splicing in colorectal cancer and its regulatory network,PMC9340224,8,217,LASSO+单因素Cox+多因素Cox,0,1,1,0,0,0,0,0,0,0,0,未分类,0.0071,0.125
+SIG336,2022,Frontiers in genetics,Development of an exosome-related and immune microenvironment prognostic signature in colon adenocarcinoma,PMC9513147,3,417,LASSO+单因素Cox+多因素Cox+PCA,0,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0136,0.0
+SIG337,2024,Heliyon,Comparison of left- and right-sided colorectal cancer to explore prognostic signatures related to pyroptosis,PMC10987941,4,,单因素Cox+多因素Cox,1,1,1,0,0,1,0,0,0,0,0,焦亡,0.0118,0.25
+SIG338,2023,Frontiers in immunology,Developing an m5C regulator-mediated RNA methylation modification signature to predict prognosis and immunotherapy efficacy in rectal cancer,PMC9992543,3,348,LASSO+单因素Cox+多因素Cox,1,1,1,0,0,0,0,0,0,0,0,免疫/炎症,0.0,0.0

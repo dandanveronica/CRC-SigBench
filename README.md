@@ -37,6 +37,7 @@ CRC-SigBench/
 │   ├── 08_cutpoint/              # cut-point search experiment
 │   ├── 09_rederivation/          # Part 3: minimal-compliant de novo signature, locked validation
 │   ├── 10_figures/               # manuscript figures
+│   ├── 11_search/                # PRISMA 2020 search strategy for the signature corpus
 │   └── 99_auxiliary/             # supporting and superseded scripts retained for transparency
 ├── data/
 │   └── signatures/               # 320 signatures: gene lists + coefficients, metadata, claimed values
