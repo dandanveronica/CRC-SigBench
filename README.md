@@ -45,6 +45,21 @@ CRC-SigBench/
     └── per_cohort_2560.csv       # ONE ROW PER SIGNATURE x COHORT — the core deliverable
 ```
 
+### The signature catalogue (what gets scored)
+
+`data/signatures/signature_library_320_genes.csv` is the machine-readable catalogue that stage B
+consumes: one row per audited signature with `sig_id`, year, journal, title, PMCID, source URL,
+gene count and the **actual gene list** (semicolon-separated). All 320 signatures are present and
+all 320 carry a non-empty gene list (7.8 genes on average).
+
+> **Scoring note (honest disclosure).** The catalogue contains **gene lists only** — no risk-score
+> coefficients. `code/03_score/` therefore scores every signature as the *unweighted* mean of
+> member-gene z-scores (`coef = NULL` in `07_audit_signatures.R`). Published coefficient sets were
+> not systematically extracted from the source papers, so for signatures that were originally
+> coefficient-weighted our reconstruction is a standardised approximation rather than a verbatim
+> reimplementation. The direction of the resulting bias is not established and is disclosed as a
+> limitation in the manuscript.
+
 `data/cohorts/` is intentionally **not** populated. The eight standardised per-cohort objects are
 rebuilt locally by `code/01_build_cohorts/`; they are not redistributed because the underlying GEO
 and TCGA data remain subject to their own terms of use.
