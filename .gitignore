@@ -1,0 +1,12 @@
+# Local, regenerated artefacts — never commit these
+cohorts/
+audit_out_clean/
+code/*/cohorts
+code/*/audit_out_clean
+cohorts_raw/
+fulltext_xml/
+null_dist.rds
+*.rds
+.DS_Store
+.Rhistory
+__pycache__/

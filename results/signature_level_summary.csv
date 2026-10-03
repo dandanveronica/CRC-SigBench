@@ -1,0 +1,321 @@
+sig_id,队列数,C均值,随机C均值,校准斜率中位,AUC5均值,平均ΔC,优于随机的队列数,基因数,year,title
+SIG001,8,0.5579,0.5424,0.2056,0.5756,0.0156,6,4,2026,Identification and Validation of Prognostic Biomarker Signatures Associated with Overall Survival in Colorectal Cancer: Evidence from Bioinformatics Analysis and an in vivo Study
+SIG002,8,0.5693,0.5424,0.4025,0.5861,0.0269,6,4,2026,RNF research trends and an RNF43-based prognostic model for colorectal cancer with immune microenvironment analysis
+SIG003,8,0.549,0.5436,0.526,0.5382,0.0053,6,13,2025,A mitochondrial lipid metabolism-related gene signature predicts prognosis and immune landscape in colorectal cancer
+SIG004,8,0.5469,0.5441,0.305,0.5257,0.0028,4,9,2025,"Comprehensive analysis of mitochondrial-related gene signature for prognosis, tumor immune microenvironment evaluation, and candidate drug development in colon cancer"
+SIG005,8,0.5414,0.5432,0.3706,0.5507,-0.0019,4,6,2025,Machine learning-based construction of an oxidative stress-related model reveals molecular subtypes and tumor microenvironment infiltration signatures in colon cancer
+SIG006,8,0.5737,0.5438,0.5964,0.5698,0.0299,6,8,2026,Identification of an Immune Cell Gene Signature for Predicting Response and Prognosis in Rectal Cancer Patients Undergoing Neoadjuvant Chemoradiotherapy
+SIG007,8,0.5579,0.5445,0.2368,0.5546,0.0134,4,15,2026,Up-regulation of SLC26A3 enhances oxaliplatin sensitivity in colorectal cancer
+SIG009,8,0.5553,0.5432,0.4478,0.5625,0.012,5,6,2026,Identification of pyroptosis and hypoxia related molecular subtypes and a prognostic signature in colorectal cancer
+SIG010,8,0.536,0.5432,0.1579,0.5381,-0.0072,2,6,2025,Identification and validation of a CD4&lt;sup&gt;+&lt;/sup&gt; T cell-related prognostic model to predict immune responses in stage III-IV colorectal cancer
+SIG011,8,0.5488,0.5431,0.1696,0.5697,0.0057,4,3,2025,Immunological characterization and prognostic of colon cancer evaluated by angiogenesis-related features: a computational analysis and in vitro experiments
+SIG012,8,0.5531,0.5431,0.2479,0.533,0.01,5,3,2025,Construction and validation of a prognostic model for colorectal cancer based on bioinformatics and basement membrane-related genes
+SIG013,8,0.5572,0.5435,0.2228,0.5656,0.0137,3,9,2025,Intratumor heterogeneity score reveals immune landscape and survival stratification in colorectal cancer
+SIG014,8,0.5532,0.5445,0.2825,0.5694,0.0087,4,15,2025,Multi-omics integration and machine learning-driven construction of an immunogenic cell death prognostic model for colon cancer and functional validation of FCGR2A
+SIG015,8,0.5355,0.5431,0.2228,0.5077,-0.0076,2,3,2026,A pseudouridine-related prognostic model of colorectal cancer based on single-cell sequencing analysis and transcriptome analysis
+SIG016,8,0.5399,0.549,0.5618,0.5312,-0.0091,3,57,2026,A nucleolar stress gene signature enables quantitative scoring across multi-omics contexts
+SIG018,8,0.6007,0.5435,0.6,0.6136,0.0572,7,9,2025,A novel gene signature for predicting outcome in colorectal cancer patients based on tumor cell-endothelial cell interaction via single-cell sequencing and machine learning
+SIG019,8,0.5644,0.5438,0.6153,0.5358,0.0206,7,12,2025,A ferroptosis-related risk model for non-coding RNA AC002331.1 in colon cancer: construction via competing endogenous RNA network analysis
+SIG020,8,0.5464,0.5432,0.2112,0.553,0.0033,5,5,2025,Identifying CDCA4 as a Radiotherapy Resistance-Associated Gene in Colorectal Cancer by an Integrated Bioinformatics Analysis Approach
+SIG021,8,0.5484,0.5435,0.291,0.5668,0.0049,5,10,2026,An integrated bulk and single-cell transcriptomic analysis reveals stemness-driven immune regulation and therapeutic vulnerability in colorectal cancer
+SIG022,8,0.5563,0.5424,0.2847,0.5644,0.0139,5,4,2026,Graph-Based Multi-Omics Integration Reveals Prognostic Histone Modification Reader Genes and Candidate Drug Targets in Colorectal Cancer
+SIG023,8,0.5359,0.5435,0.2034,0.4916,-0.0076,2,9,2026,Construction of taurine metabolism-related risk model and subtype identification in colorectal cancer to predict prognosis and immunological features
+SIG024,8,0.5673,0.5434,0.2625,0.5569,0.0239,6,7,2026,Integrated single-cell and spatial transcriptomics reveal immune landscape and NKT-Th1 signatures in colorectal cancer
+SIG025,8,0.557,0.5436,0.4281,0.5128,0.0134,4,13,2025,Integration of single-cell and bulk RNA-seq via machine learning to reveal ferroptosis- and lipid metabolism-driven immune landscape heterogeneity and predict immunotherapy response in colon cancer
+SIG026,8,0.554,0.5456,0.816,0.5354,0.0085,3,31,2025,Constructing a mitochondrial-related genes model based on machine learning for predicting the prognosis and therapeutic effect in colorectal cancer
+SIG027,8,0.5607,0.5424,0.1496,0.5444,0.0183,4,4,2025,Constructing and validating a novel prognostic risk score model for rectal cancer based on four immune-related genes
+SIG028,8,0.5989,0.5424,0.3148,0.6177,0.0566,8,4,2025,Development and validation of a cancer-associated fibroblast gene signature-based model for predicting immunotherapy response in colon cancer
+SIG029,8,0.5528,0.5423,0.1955,0.5231,0.0105,5,5,2025,Nucleotide metabolism-associated drug resistance gene NDUFA4L2 promotes colon cancer progression and 5-FU resistance
+SIG030,8,0.5541,0.5431,0.3212,0.5426,0.011,4,7,2026,Construction of a risk scoring model based on machine learning and validation of the role of the key gene SERPINE1 in the progression of colon cancer
+SIG031,8,0.5485,0.5424,0.1483,0.5332,0.0061,3,4,2025,Chromosome 20q gene signature associated with colorectal cancer progression
+SIG032,8,0.5301,0.5436,0.1442,0.5265,-0.0135,1,10,2026,"The Risk Genes S1PR5, CMC1, and ASAH1 as Potential Targets for the Diagnosis, Immunotherapy, and Treatment of Colon Adenocarcinoma by Single-Cell and Bulk RNA Sequencing Analysis"
+SIG033,8,0.5694,0.5437,0.628,0.5413,0.0257,6,10,2026,An epithelial cell fate-driven predictive model for liver metastasis risk in primary colorectal cancer through single-cell and multi-omics integration
+SIG034,8,0.564,0.5433,0.3078,0.571,0.0207,5,14,2025,Risk Prediction of Colon Cancer Metastasis and Bioinformatics Analysis of Aspirin Treatment
+SIG035,8,0.5654,0.5431,0.1737,0.5628,0.0223,4,3,2025,Integrative single-cell and bulk transcriptomes analyses reveal T cell-related prognostic risk model and tumor immune microenvironment modulation in colorectal cancer
+SIG036,8,0.5469,0.5438,0.3965,0.5324,0.0031,5,13,2024,Machine learning-based analysis identifies a 13-gene prognostic signature to improve the clinical outcomes of colorectal cancer
+SIG037,8,0.5727,0.5448,0.3892,0.5843,0.0279,7,14,2026,Integrated Single-Cell and Spatial Transcriptomic Analysis Identifies Putative Metabolic Crosstalk Between &lt;i&gt;SPP1&lt;/i&gt;+ TAMs and &lt;i&gt;SLC6A20&lt;/i&gt;+ Epithelial Cells in Colorectal Cancer
+SIG038,8,0.5769,0.5431,0.368,0.5667,0.0338,6,3,2025,Development of a prognostic model for chemotherapy response and identification of TNFAIP2 as a target in colorectal cancer
+SIG039,8,0.5319,0.5435,0.2763,0.5313,-0.0116,3,14,2025,The Tumor-Associated Neutrophils-Related Signatures Predict Prognosis and Indicate Immune Landscape in Colorectal Carcinoma
+SIG040,8,0.5792,0.5444,0.6706,0.5701,0.0349,6,15,2025,Constructing a novel mitochondrial metabolism-related genes signature to evaluate tumor immune microenvironment and predict survival of colorectal cancer
+SIG041,8,0.5653,0.5436,0.3377,0.5464,0.0217,4,10,2026,The subtype identification of colorectal cancer and construction of the risk model based on cholesterol synthesis-related genes to predict prognosis and guide immunotherapy
+SIG042,8,0.5757,0.5431,0.2923,0.5905,0.0327,6,8,2025,Integrative machine learning identifies lactylation-related gene signature prognostic for chemotherapeutic efficacy in colorectal carcinoma
+SIG043,8,0.5386,0.5436,0.2919,0.5322,-0.0049,2,14,2025,Assessment of prognosis and responsiveness to immunotherapy in colorectal cancer patients based on the level of immune cell infiltration
+SIG044,8,0.5603,0.5431,0.2496,0.5359,0.0172,6,3,2026,Transcriptomics and Mendelian randomization studies reveal the critical role of Stanniocalcin-2 in linking perfluorinated compound-exposure to colorectal cancer
+SIG045,8,0.5487,0.5432,0.2674,0.5688,0.0054,4,6,2024,A new TGF-β risk score predicts clinical and immune landscape in colorectal cancer patients
+SIG046,8,0.5557,0.5432,0.2865,0.5413,0.0125,5,5,2023,Effective oxygen metabolism-based prognostic signature for colorectal cancer
+SIG047,8,0.5548,0.5424,0.2158,0.5122,0.0125,7,4,2025,Identification of hub genes related to radiosensitivity and prognosis in rectal cancer
+SIG048,8,0.5389,0.5436,0.1764,0.5388,-0.0048,2,11,2026,Multi-layer molecular profiling defines an immune-active colorectal cancer subtype with therapeutic relevance
+SIG049,8,0.5784,0.5435,0.7266,0.5782,0.035,7,14,2023,Development of 14-gene signature prognostic model based on metastasis for colorectal cancer
+SIG050,8,0.5403,0.5425,0.3186,0.5716,-0.0022,4,6,2025,A Machine-Learning Prognostic Model for Colorectal Cancer Using a Complement-Related Risk Signature
+SIG051,8,0.5568,0.5431,0.3388,0.5809,0.0137,5,7,2025,Consensus molecular subtyping of colorectal carcinoma brain metastases reveals a metabolic signature associated with poor patient survival
+SIG052,8,0.5562,0.5452,0.3397,0.5815,0.011,5,20,2024,A multi-dimensional approach to unravel the intricacies of lactylation related signature for prognostic and therapeutic insight in colorectal cancer
+SIG053,8,0.5476,0.5437,0.3501,0.5584,0.0039,3,11,2025,Cancer-associated fibroblasts gene signature: a novel approach to survival prediction and immunotherapy guidance in colon cancer
+SIG054,8,0.5659,0.5478,0.5616,0.5728,0.0181,5,46,2024,Functional gene signature offers a powerful tool for characterizing clinicopathological features and depicting tumor immune microenvironment of colorectal cancer
+SIG055,8,0.561,0.5443,0.773,0.5634,0.0167,5,21,2026,Integrative genomic profiling of iron homeostasis predicts clinical outcomes and identifies HAMP/hepcidin as a therapeutic target in colorectal cancer
+SIG056,8,0.5289,0.5432,0.0677,0.5155,-0.0144,2,7,2025,Analyses of the roles and potential targets of m7G-related genes in colorectal cancer using single-cell and bulk RNA sequencing data
+SIG057,8,0.5509,0.5438,0.4997,0.5544,0.0072,4,8,2025,Identification of RNA binding protein genes associated with colorectal cancer by bioinformatics analysis
+SIG058,8,0.5424,0.5449,0.2424,0.5622,-0.0025,3,24,2025,Multi-omics analysis of the HMGB2&lt;sup&gt;+&lt;/sup&gt; tumor epithelial cells in lactylation subgroups in colorectal cancer
+SIG059,8,0.5407,0.5441,0.1793,0.5668,-0.0034,3,14,2024,Exploiting tertiary lymphoid structures gene signature to evaluate tumor microenvironment infiltration and immunotherapy response in colorectal cancer
+SIG060,8,0.5463,0.5435,0.2082,0.5702,0.0028,3,7,2025,MX1 is a novel crucial prognostic and therapeutic target inducing chemoresistance in right-sided colon cancer: insights from machine learning-based multi-omics analysis
+SIG062,8,0.5423,0.5466,0.295,0.5544,-0.0044,2,43,2025,Non-apoptotic regulated cell death based prognostic risk model for colorectal cancer using machine learning guided two-step framework
+SIG063,8,0.5581,0.5448,0.6282,0.544,0.0133,4,19,2025,The pivotal role of SFRP2 in promoting glycolysis and progression in the high-risk group based on the glycometabolism prognostic model for colorectal cancer
+SIG064,8,0.6136,0.5431,0.4605,0.6426,0.0704,8,3,2026,Analysis and validation of mast cells and enriched genes in colorectal cancer with liver metastasis by multi-omics data
+SIG065,8,0.5433,0.5425,0.2744,0.5372,0.0008,4,5,2023,"Identification of cuproptosis-based molecular subtypes, construction of prognostic signature and characterization of immune landscape in colon cancer"
+SIG066,8,0.5561,0.5436,0.3229,0.5727,0.0125,3,11,2025,Comprehensive characterization of lysosome-dependent cell death reveals prognostic significance and immune landscape in colon adenocarcinoma
+SIG067,8,0.5198,0.5425,0.0817,0.525,-0.0227,1,5,2026,Senescent fibroblasts drive CD8&lt;sup&gt;+&lt;/sup&gt; T cell dysfunction in colorectal cancer via CD36-mediated lipid transfer and peroxidation
+SIG068,8,0.5594,0.5417,0.4171,0.5541,0.0177,5,5,2025,Clonal dispersal is associated with tumor heterogeneity and poor prognosis in colorectal cancer
+SIG069,8,0.5566,0.5431,0.1386,0.5431,0.0135,4,7,2025,Revelation of prognosis and tumor microenvironment of colorectal cancer based on genes related to antibody-dependent cellular phagocytosis and single-cell landscape
+SIG070,8,0.5547,0.5431,0.1826,0.5441,0.0116,4,3,2024,"A comprehensive analysis of TRP-related gene signature, and immune infiltration in patients with colorectal cancer"
+SIG071,8,0.5662,0.5447,0.5184,0.5933,0.0215,5,13,2025,A novel machine learning-based immune prognostic signature for improving clinical outcomes and guiding therapy in colorectal cancer: an integrated bioinformatics and experimental study
+SIG072,8,0.5281,0.5437,0.1799,0.5202,-0.0155,3,15,2024,Identification of glutamine metabolism-related gene signature to predict colorectal cancer prognosis
+SIG073,8,0.573,0.5442,0.8522,0.5916,0.0288,5,16,2025,"STC2+ Malignant Cell State Associated with EMT, Tumor Microenvironment Remodeling, and Poor Prognosis Revealed by Single-Cell and Spatial Transcriptomics in Colorectal Cancer"
+SIG074,8,0.5497,0.5436,0.3467,0.4988,0.0061,6,11,2023,A novel inflammation-related signature for predicting prognosis and characterizing the tumor microenvironment in colorectal cancer
+SIG075,8,0.5688,0.5447,0.4548,0.5852,0.0242,6,14,2025,Single-cell and bulk transcriptomics reveal Fusobacterium nucleatum promotes colorectal cancer metastasis by upregulating LAMC2 in in vitro and in vivo models
+SIG076,8,0.5598,0.5438,0.2149,0.5668,0.016,4,9,2025,Modeling oxaliplatin resistance in colorectal cancer reveals a SERPINE1-based gene signature (RESIST-M) and therapeutic strategies for pro-metastatic CMS4 subtype
+SIG077,8,0.5335,0.5431,0.2741,0.5444,-0.0096,3,7,2023,Construction of cuproptosis‑associated prognostic signature in colon adenocarcinoma based on bioinformatics and RT‑qPCR analysis
+SIG078,8,0.5732,0.5422,0.4463,0.5707,0.031,5,6,2024,Value analysis of <i>ITLN1</i> in the diagnostic and prognostic assessment of colorectal cancer
+SIG079,8,0.5616,0.5425,0.3184,0.5717,0.0191,4,5,2025,Prognostic and therapeutic implications related to glycosylation profiles of cancer-associated fibroblasts in colorectal cancer: insights from single-cell and bulk transcriptomics
+SIG080,8,0.5444,0.5438,0.4032,0.5676,0.0006,2,8,2025,A Super-Enhancer-Related Ferroptosis Signature Predicts Survival and Immune Microenvironment in Colon Cancer Based on Bioinformatics Analyses and Experimental Validation
+SIG081,8,0.5728,0.5425,0.3357,0.6044,0.0303,4,5,2025,Integrated single cell and bulk RNA sequencing analyses reveal the impact of tryptophan metabolism on prognosis and immunotherapy in colon cancer
+SIG082,8,0.6001,0.5432,0.4403,0.6209,0.0568,7,6,2026,Identification and evaluation of glutamine-related gene characteristics based on multi-omics to predict the prognosis of patients with colorectal cancer
+SIG083,8,0.5414,0.5442,0.174,0.5449,-0.0027,3,17,2024,Construction and multicohort validation of a colon cancer prognostic risk score system based on big data of neutrophil-associated differentially expressed genes
+SIG084,8,0.6007,0.5445,0.6049,0.627,0.0561,8,15,2024,Consensus clustering and development of a risk signature based on trajectory differential genes of cancer-associated fibroblast subpopulations in colorectal cancer
+SIG085,8,0.5635,0.5431,0.3519,0.5665,0.0204,6,7,2024,Construction and validation of an immune-related gene signature predictive of survival and response to immunotherapy for colorectal cancer
+SIG086,8,0.5562,0.5425,0.3037,0.6101,0.0137,4,5,2025,Glycosylation gene expression profiles enable prognosis prediction for colorectal cancer
+SIG087,8,0.5627,0.5425,0.4379,0.5876,0.0202,5,5,2025,&lt;i&gt;Candida albicans&lt;/i&gt; and colorectal cancer: A paradoxical role revealed through metabolite profiling and prognostic modeling
+SIG088,8,0.5697,0.5432,0.3308,0.5766,0.0265,6,6,2024,Identification and validation of a novel six-gene signature based on mucinous adenocarcinoma-related gene molecular typing in colorectal cancer
+SIG089,8,0.5836,0.5425,0.5571,0.5907,0.0411,7,5,2024,Potential regulation and prognostic model of colorectal cancer with extracellular matrix genes
+SIG090,8,0.565,0.5424,0.4092,0.5705,0.0226,5,4,2024,Integrated multi-omics analyses revealed the association between rheumatoid arthritis and colorectal cancer: MYO9A as a shared gene signature and an immune-related therapeutic target
+SIG091,8,0.5363,0.5431,0.1346,0.5261,-0.0068,1,7,2024,Establishment of a neutrophil extracellular trap-related prognostic signature for colorectal cancer liver metastasis and expression validation of CYP4F3
+SIG093,8,0.5521,0.5435,0.2724,0.5426,0.0086,6,9,2025,Prognostic models of immune-related cell death and stress unveil mechanisms driving macrophage phenotypic evolution in colorectal cancer
+SIG094,8,0.5415,0.5431,0.1277,0.5467,-0.0016,4,3,2022,A novel Anoikis and immune-related genes marked prognostic signature for colorectal cancer
+SIG095,8,0.6136,0.5443,0.9752,0.6277,0.0693,8,18,2023,A Novel Lipid Metabolism and Endoplasmic Reticulum Stress-Related Risk Model for Predicting Immune Infiltration and Prognosis in Colorectal Cancer
+SIG096,8,0.5503,0.5436,0.2834,0.5204,0.0067,2,11,2025,Unveiling the immunometabolic landscape of colorectal cancer through PANoptosis-related gene expression
+SIG097,8,0.5403,0.5435,0.286,0.5429,-0.0032,3,14,2022,A Prognostic Model Using Immune-Related Genes for Colorectal Cancer
+SIG098,8,0.5415,0.5425,0.1234,0.538,-0.001,4,5,2022,A novel oxidative stress- and ferroptosis-related gene prognostic signature for distinguishing cold and hot tumors in colorectal cancer
+SIG099,8,0.576,0.5436,0.4603,0.5736,0.0323,6,11,2025,Integrated multi-omics and machine learning reveal an immunogenic cell death-related signature for prognostic stratification and therapeutic optimization in colorectal cancer
+SIG101,8,0.5407,0.5438,0.2642,0.5537,-0.0031,5,10,2024,Identifying colorectal cancer subtypes and establishing a prognostic model using metabolic plasticity and ferroptosis genes
+SIG102,8,0.5424,0.5424,0.2398,0.5501,0.0,4,4,2022,Novel prognostic model predicts overall survival in colon cancer based on RNA splicing regulation gene expression
+SIG107,8,0.5423,0.545,0.2385,0.5163,-0.0026,3,15,2025,Single-cell and spatial transcriptomic analysis reveals tumor cell heterogeneity and underlying molecular program in colorectal cancer
+SIG108,8,0.5422,0.5446,0.2882,0.5535,-0.0024,2,15,2023,Development and Validation of a 15-gene Expression Signature with Superior Prognostic Ability in Stage II Colorectal Cancer
+SIG109,8,0.5654,0.5431,0.4269,0.5458,0.0223,4,7,2022,PANoptosis-based molecular clustering and prognostic signature predicts patient survival and immune landscape in colon cancer
+SIG110,8,0.5379,0.5435,0.3794,0.547,-0.0056,4,9,2025,Folate metabolism-associated CYP26A1 is a clinico-immune target in colorectal cancer
+SIG111,8,0.558,0.5438,0.3309,0.5724,0.0142,5,13,2024,Exploring the relationship between anal fistula and colorectal cancer based on Mendelian randomization and bioinformatics
+SIG112,8,0.5689,0.5424,0.3774,0.5875,0.0265,7,4,2024,Elucidating the role of angiogenesis-related genes in colorectal cancer: a multi-omics analysis
+SIG113,8,0.5845,0.5436,0.634,0.5824,0.0408,6,10,2024,Mechanistic insights into super-enhancer-related genes as prognostic signatures in colon cancer
+SIG114,8,0.5791,0.5446,0.8914,0.562,0.0345,6,20,2023,Metabolic-suppressed cancer-associated fibroblasts limit the immune environment and survival in colorectal cancer with liver metastasis
+SIG115,8,0.5307,0.5424,0.0837,0.527,-0.0117,2,4,2025,"Integrating COX-2, stromal PD-L1, and T-cell infiltration enhances prognostic stratification in colorectal cancer"
+SIG116,8,0.5564,0.5425,0.3003,0.5683,0.0139,6,5,2025,Comprehensive analysis of basement membrane-related genes showed that NELL2 is a new therapeutic target for colorectal cancer
+SIG117,8,0.55,0.5426,0.2905,0.5241,0.0074,5,4,2021,Identification and Validation of a Novel Inflammatory Response-Related Gene Signature for the Prognosis of Colon Cancer
+SIG118,8,0.5786,0.5435,0.4863,0.5509,0.0351,6,15,2024,Establishment of a chemokine-based prognostic model and identification of CXCL10+ M1 macrophages as predictors of neoadjuvant therapy efficacy in colorectal cancer
+SIG119,8,0.555,0.5436,0.3935,0.5616,0.0113,5,10,2023,Integrating TCGA and single-cell sequencing data for colorectal cancer: a 10-gene prognostic risk assessment model
+SIG120,8,0.5402,0.5431,0.1394,0.5289,-0.0029,5,4,2025,Development And Validation of An RNA Binding Protein-Associated Prognostic Model for Colon Adenocarcinoma
+SIG121,8,0.5494,0.5432,0.3116,0.5646,0.0062,3,6,2025,Single-cell and bulk transcriptome analyses reveal elevated amino acid metabolism promoting tumor-directed immune evasion in colorectal cancer
+SIG122,8,0.5494,0.5438,0.2564,0.5116,0.0056,5,8,2023,Establishment and verification of prognostic model and ceRNA network analysis for colorectal cancer liver metastasis
+SIG124,8,0.6074,0.5424,0.5658,0.6072,0.065,8,4,2026,Integrative single-cell and spatial multi-Omics analyses identify NETs-driven colon cancer subtypes with distinct metabolic features and prognostic implications
+SIG125,8,0.5308,0.542,0.1996,0.5366,-0.0113,3,4,2025,A mitochondrial ferroptosis-related gene signature predicts prognosis and immune landscape in colon cancer
+SIG126,8,0.5354,0.5426,0.1952,0.504,-0.0072,2,4,2026,A radiotherapy resistance-related prognostic signature predicts survival and the immune landscape in rectal cancer
+SIG127,8,0.5615,0.5432,0.2067,0.5582,0.0182,5,6,2026,Single-Cell Sequencing Data Revealed Mechanisms of Interactions Between Tumor Cells and Cancer-Associated Fibroblasts in Metastatic Colorectal Cancer
+SIG128,8,0.5345,0.5436,0.3308,0.5385,-0.0092,2,11,2026,Analysis of Autophagy-Related Gene Signature Associated With Clinical Prognosis and Immune Microenvironment in Colorectal Cancer
+SIG129,8,0.5481,0.5435,0.2497,0.5744,0.0045,3,9,2026,Ferroptosis-related lncRNA signature predicts prognosis and treatment response in colon cancer
+SIG130,8,0.5865,0.5435,0.46,0.5832,0.043,7,9,2026,Integrating single-cell and bulk RNA data to explore the prognostic significance of LIM domain family genes in colorectal cancer and unveil their immune landscape
+SIG132,8,0.5352,0.5417,0.2042,0.5427,-0.0065,3,5,2026,Development and verification of a lipotoxicity-related gene signature for predicting prognosis and immune landscape in colorectal cancer
+SIG133,8,0.5702,0.5425,0.4619,0.5634,0.0277,8,5,2026,Integrated single-cell and bulk transcriptomics identify autophagy-related immune-suppressive subtypes and a prognostic signature in colorectal cancer
+SIG134,8,0.536,0.5436,0.2257,0.5355,-0.0076,1,8,2024,A hot and cold tumor‑related prognostic signature for stage II colorectal cancer
+SIG135,8,0.5541,0.5432,0.2548,0.5515,0.0109,5,3,2026,Metabolic-cell-death gene trio predicts survival and cuproptosis sensitivity in colorectal cancer
+SIG136,8,0.5886,0.5435,0.5928,0.5985,0.0451,7,9,2026,A nine-gene nicotine-metabolism signature predicts prognosis and characterizes the immune landscape in colon adenocarcinoma
+SIG138,8,0.5536,0.5425,0.2327,0.6083,0.0111,5,5,2026,Prognostic value of genes associated with metastasis and propionate metabolism in rectal cancer
+SIG139,8,0.5359,0.5424,0.1539,0.5491,-0.0065,3,4,2025,Dietary restriction-responsive genes define prognostic subtypes and predict metastasis in colorectal cancer
+SIG140,8,0.5563,0.5432,0.3644,0.5357,0.0131,5,6,2026,Identification and validation of a Golgi apparatus related gene signature for prognosis prediction and immune microenvironment profiling in colorectal cancer
+SIG141,8,0.5376,0.5431,0.3077,0.4979,-0.0055,1,7,2025,Development and validation of a machine learning-based prognostic model using mitochondrial dysfunction-related genes for colorectal cancer patients
+SIG142,8,0.5344,0.5438,0.3548,0.5169,-0.0094,3,12,2026,Machine learning algorithms develop a tumor-educated platelets-related gene signature to predict colorectal cancer prognosis and therapy response
+SIG143,8,0.593,0.5432,0.5779,0.5883,0.0498,5,6,2025,Identification of an E2Fs-based gene signature for predicting prognosis and therapeutic response in colorectal cancer
+SIG144,8,0.5583,0.5431,0.2325,0.5656,0.0152,4,3,2026,Construction of immune related genes predictive models of elderly rectal cancer patients based on machine learning
+SIG145,8,0.5407,0.5438,0.2568,0.5516,-0.0031,4,12,2026,A network toxicology and machine learning approach to uncover the molecular machinery of bisphenol A-induced colorectal cancer
+SIG146,8,0.5637,0.5431,0.276,0.5824,0.0206,6,3,2025,Analysis of the molecular subtypes and prognostic models of anoikis-related genes in colorectal cancer
+SIG147,8,0.5585,0.5431,0.2564,0.5429,0.0153,6,3,2025,Novel mtDNA methylation-associated prognostic signatures in colorectal cancer
+SIG148,8,0.6026,0.5434,0.5736,0.5925,0.0592,7,8,2026,Colorectal cancer molecular subtypes and prognostic models based on NET-related genes and oxidative stress-associated signaling
+SIG149,8,0.5605,0.5436,0.2996,0.5697,0.0169,5,8,2026,Molecular subtyping and prognostic model construction based on endosome-related genes in colorectal cancer
+SIG150,8,0.5354,0.5436,0.1569,0.5674,-0.0083,3,10,2026,"Mitotic Hub Gene Network in Colorectal Cancer: Integrated Transcriptomic, Protein-Level, and Clinical-Genomic Characterization of a Ten-Gene Signature"
+SIG151,8,0.5415,0.5438,0.2454,0.5614,-0.0023,4,8,2026,Construction of a prognostic risk model based on colorectal cancer-specific ferroptosis genes and preliminary validation of FGFR4
+SIG152,8,0.5482,0.5436,0.2523,0.53,0.0046,3,8,2025,A novel liquid-liquid phase separation related gene signature including ARL6IP4 predicts prognosis and immune landscape in colorectal cancer
+SIG153,8,0.5543,0.5438,0.3825,0.546,0.0105,3,8,2026,Tertiary lymphoid structure-related genes drive tumor microenvironment heterogeneity and prognostic disparities in left- &lt;i&gt;vs.&lt;/i&gt; right-sided colon cancer
+SIG154,8,0.6081,0.5431,0.5886,0.6241,0.065,8,3,2026,Metastatic immune microenvironment remodeling by malignant epithelial cells drives colorectal cancer hepatic metastasis: Multi-omics insights
+SIG155,8,0.5499,0.5434,0.3025,0.5266,0.0065,3,9,2026,A novel lactylation-related gene signature deciphers the immunosuppressive microenvironment and stratifies precision therapy in colorectal cancer
+SIG156,8,0.5572,0.5425,0.2331,0.5555,0.0147,4,5,2025,Liquid-liquid phase separation-driven molecular subtyping and prognostic modeling in colorectal cancer
+SIG157,8,0.6024,0.5425,0.6698,0.5912,0.0599,8,5,2026,Construction and validation of a prognostic model based on anoikis-fatty acid metabolism-related genes in colorectal cancer: A retrospective cohort study
+SIG159,8,0.5308,0.5432,0.1203,0.5711,-0.0124,2,6,2026,A novel prognostic model for colon adenocarcinoma based on cofactor and vitamin metabolism-related genes
+SIG161,8,0.5676,0.5424,0.2572,0.5706,0.0252,5,4,2025,Construction of a prognostic model for colorectal cancer liver metastasis based on single-cell transcriptomics and regulation of the MIF pathway
+SIG163,8,0.6097,0.5424,0.4582,0.6268,0.0674,8,4,2025,Proteomics-based prognostic signature in colon adenocarcinoma patients with familial adenomatous polyposis
+SIG164,8,0.5842,0.5424,0.2651,0.6289,0.0418,5,4,2025,Identification of a mitophagy-related gene signature for predicting overall survival and response to immunotherapy in rectal cancer
+SIG165,8,0.5849,0.5425,0.5868,0.581,0.0424,6,5,2024,5-Fluorouracil resistance-based immune-related gene signature for COAD prognosis
+SIG166,8,0.5559,0.5431,0.2696,0.574,0.0127,4,3,2026,Combined analysis of metabolomics and transcriptomics reveals new indicators for the diagnosis and prognosis of colorectal cancer
+SIG167,8,0.5454,0.5431,0.2239,0.5566,0.0023,4,3,2025,MALMPS: A Machine Learning-Based Metabolic Gene Prognostic Signature for Stratifying Clinical Outcomes and Molecular Heterogeneity in Stage II/III Colorectal Cancer
+SIG168,8,0.6067,0.5435,0.3685,0.6306,0.0632,8,9,2025,A novel anoikis related gene prognostic model for colorectal cancer based on single cell sequencing and bulk transcriptome analyses
+SIG169,8,0.5426,0.5438,0.4776,0.537,-0.0011,4,8,2024,Identification of signatures associated with microsatellite instability and immune characteristics to predict the prognostic risk of colon cancer
+SIG170,8,0.5508,0.5432,0.1621,0.503,0.0075,3,6,2026,ATOH1 and NPAS1 are immune related prognostic biomarkers in colorectal cancer
+SIG171,8,0.5598,0.5424,0.4029,0.5809,0.0175,5,4,2026,Identification and preliminary examination of prognostic genes linked to calcium metabolism in colorectal cancer
+SIG172,8,0.5321,0.5432,0.2542,0.4739,-0.0111,2,6,2026,Development and validation of manganese metabolism-related genes prognostic model in colorectal cancer and its immunological characteristics
+SIG173,8,0.5405,0.5425,0.1733,0.5715,-0.002,4,5,2026,Identification of Immune-Related Genes in Predicting the Progression of Colitis-Associated Colorectal Cancer: An Integrated Bioinformatics and Experimental Validation Study
+SIG175,8,0.55,0.5425,0.2218,0.5532,0.0075,3,6,2025,Development of a prognostic risk model for colorectal cancer and association of the prognostic model with cancer stem cell and immune cell infiltration
+SIG176,8,0.5606,0.5438,0.3703,0.5651,0.0168,4,8,2025,Integrated analysis of single-cell and bulk RNA-sequencing to predict prognosis and therapeutic response for colorectal cancer
+SIG177,8,0.5536,0.5435,0.485,0.5261,0.0101,6,14,2024,A novel liquid-liquid phase separation-related gene signature for predicting prognosis in colon cancer
+SIG178,8,0.5585,0.5431,0.1943,0.5519,0.0154,5,3,2023,Prognostic value of fatty acid metabolism-related genes in colorectal cancer and their potential implications for immunotherapy
+SIG179,8,0.5602,0.5438,0.2816,0.5512,0.0165,4,12,2026,Deciphering oxidative stress-related heterogeneity and developing a prognostic signature for colorectal cancer
+SIG180,8,0.5685,0.5425,0.3736,0.568,0.026,6,5,2026,Multi-omics profiling of sodium-overload (NECSO) programs identifies NEK8 as a central driver of colorectal cancer progression through single-cell and spatial transcriptomics
+SIG181,8,0.5799,0.5425,0.1893,0.5735,0.0374,5,5,2026,T-cell exhaustion indicator characterizes the tumor microenvironment landscape and predicts colon adenocarcinoma prognosis via integrating single-cell RNA-seq and bulk RNA-sequencing
+SIG182,8,0.5648,0.5431,0.375,0.5477,0.0217,6,3,2025,Multi-Omics-Based Analysis of the Effect of Longevity Genes on the Immune Relevance of Colorectal Cancer
+SIG183,8,0.5515,0.5424,0.2205,0.5622,0.0092,4,4,2024,Characterizing PANoptosis gene signature in prognosis and chemosensitivity of colorectal cancer
+SIG184,8,0.5581,0.5431,0.1515,0.5078,0.0149,6,3,2026,Single-cell transcriptomics reveals the prognostic and immune infiltration significance of FOLFOX-bevacizumab treatment and lysine crotonylation characteristics in colon cancer
+SIG185,8,0.5587,0.5449,0.3701,0.5309,0.0138,4,22,2024,Bulk and single-cell RNA sequencing analyses coupled with multiple machine learning to develop a glycosyltransferase associated signature in colorectal cancer
+SIG186,8,0.6026,0.5454,0.791,0.6102,0.0572,7,19,2025,Construction of a Prognostic Model based on CSC-related Genes in Patients with Colorectal Cancer
+SIG187,8,0.5491,0.5424,0.1004,0.5381,0.0068,4,4,2026,Molecular subtyping of colorectal cancer based on inositol metabolism identifies PLCG2 as a key prognostic biomarker
+SIG188,8,0.5586,0.5432,0.4503,0.5317,0.0154,4,6,2026,UHRF2 related to sumoylation : assessment of its role in immune suppression and therapeutic potential in colorectal cancer
+SIG189,8,0.5539,0.5435,0.3142,0.5713,0.0104,6,6,2026,A Novel Prognostic Signature Composed of Autophagy and Liver Metastasis in Colorectal Cancer: Comprehensive Analysis of Bulk and Single-Cell Transcriptomic Data
+SIG190,8,0.5644,0.5431,0.2819,0.5542,0.0213,5,7,2023,Seven bacterial response-related genes are biomarkers for colon cancer
+SIG191,8,0.525,0.5432,0.0947,0.5104,-0.0182,2,3,2025,The prognostic potential of RNA in stage II colon cancer: Insights from a screened multicenter population-based cohort study
+SIG192,8,0.5455,0.5431,0.109,0.5375,0.0023,2,3,2025,Integration analysis of single-cell and spatial transcriptomics identifies prognostic genes associated with neddylation in colorectal cancer
+SIG193,8,0.5409,0.5429,0.2262,0.5301,-0.002,3,7,2024,Identification and validation of calcium extrusion-related genes prognostic signature in colon adenocarcinoma
+SIG194,8,0.5592,0.5432,0.1973,0.5607,0.016,5,6,2025,Prognostic value and experimental validation of atherosclerosis-derived pathogenic genes in colorectal cancer
+SIG195,8,0.5546,0.5438,0.4368,0.5404,0.0109,4,12,2026,The significance of immunogenic cell death related prognostic gene markers in colorectal cancer prognosis and antitumor immunity
+SIG196,8,0.5739,0.5424,0.3483,0.5574,0.0315,6,4,2026,Unraveling the role of mitochondrial unfolded protein response in colorectal cancer
+SIG197,8,0.56,0.542,0.2653,0.566,0.0179,5,4,2025,Immunogenomic classification and nomogram development and validation for colorectal cancer survival prediction based on immune-related genes
+SIG198,8,0.5349,0.5431,0.1308,0.5289,-0.0082,3,3,2025,Neddylation related gene signature for prognostic biomarkers in colorectal cancer with integrated bioinformatics and experimental analysis
+SIG199,8,0.5581,0.5425,0.3717,0.5524,0.0156,5,5,2025,Unveiling prognostic value of JAK/STAT signaling pathway related genes in colorectal cancer: a study of Mendelian randomization analysis
+SIG200,8,0.5998,0.5431,0.3681,0.6121,0.0567,7,3,2026,Integrated single-cell and spatial transcriptomic analysis reveals mCAF-SPP1⁺ macrophage-T cell crosstalk shaping immunosuppressive niches in colorectal cancer liver metastasis
+SIG201,8,0.5782,0.5432,0.3638,0.5888,0.035,5,4,2024,Tumor immune microenvironment of colorectal cancer identifies novel prognostic signature and potential therapeutic drugs
+SIG202,8,0.5698,0.5455,0.9236,0.575,0.0242,5,29,2025,"A machine learning-based prognostic model integrating mRNA stemness index, hypoxia, and glycolysis‑related biomarkers for colorectal cancer"
+SIG203,8,0.5469,0.5425,0.4935,0.5249,0.0044,5,5,2025,Identification of cuproptosis and ferroptosis-related subtypes and development of a prognostic signature in colon cancer
+SIG204,8,0.5465,0.5431,0.1863,0.5333,0.0034,3,3,2025,Overexpression of MMP14 is associated with poor prognosis and immune cell infiltration in colon cancer
+SIG205,8,0.5777,0.5431,0.3205,0.5796,0.0346,6,7,2026,An epithelial mesenchymal transition associated gene signature stratifies risk of ulcerative colitis associated colorectal cancer
+SIG206,8,0.5421,0.5436,0.2505,0.5483,-0.0015,4,11,2025,Development of a prognostic risk model for colorectal cancer based on microsatellite stability-associated genes
+SIG207,8,0.5681,0.5447,0.5487,0.5852,0.0235,6,13,2025,Integrated singlecell and bulk RNA-seq analysis identifies a prognostic signature related to inflammation in colorectal cancer
+SIG208,8,0.5932,0.5434,0.5383,0.5987,0.0498,6,7,2025,PDT-regulated immune gene prognostic model reveals tumor microenvironment in colorectal cancer liver metastases
+SIG209,8,0.5549,0.5425,0.1252,0.5333,0.0124,4,5,2025,Unveiling the prognostic significance of RNA editing-related genes in colon cancer: evidence from bioinformatics and experiment
+SIG210,8,0.5925,0.5447,0.527,0.6143,0.0479,7,13,2026,FAP as a Clinical Biomarker: FAP+ CAFs Orchestrate an Immunosuppressive Stem Cell Niche via the COL1A1/2-CD44 Axis in Colon Cancer
+SIG211,8,0.5745,0.5424,0.5168,0.5643,0.0321,5,4,2025,A Novel Mitochondria-Associated Programmed Cell Death-Related Prognostic Model and Validation of Oncogene INHBB in Colorectal Cancer
+SIG212,8,0.5264,0.5431,0.1317,0.5281,-0.0167,2,3,2026,Multiomics study on the tertiary lymphatic structure signature of colon cancer
+SIG213,8,0.5748,0.5425,0.382,0.5972,0.0323,7,5,2025,Bioinformatics mining and experimental validation of prognostic biomarkers in colorectal cancer
+SIG214,8,0.5535,0.5425,0.2734,0.5552,0.011,3,5,2025,TRP-related gene signatures predict survival and the immune microenvironment in rectal cancer: a comprehensive bioinformatics study
+SIG215,8,0.5523,0.5424,0.1466,0.5377,0.0099,4,4,2025,Risk model of liquid-liquid phase separation-related genes reveals the prognosis and tumor microenvironment characteristics of colorectal cancer
+SIG216,8,0.5699,0.5424,0.3992,0.5791,0.0276,6,4,2026,Integrative machine learning models reveal immune and metabolic signatures predictive of colorectal cancer prognosis
+SIG217,8,0.5567,0.5438,0.2551,0.5773,0.0129,4,8,2025,Development and validation of a disulfidptosis-related prognostic model for colorectal cancer using multi-omics analysis
+SIG218,8,0.5721,0.5424,0.4648,0.5725,0.0297,7,4,2024,Identification of a 5-Gene Cuproptosis Signature Predicting the Prognosis for Colon Adenocarcinoma Based on WGCNA
+SIG219,8,0.5338,0.5431,0.2193,0.5268,-0.0093,1,8,2024,A Pyroptosis-Related Gene Signature Predicts Prognosis and Tumor Immune Microenvironment in Colorectal Cancer
+SIG220,8,0.5587,0.5431,0.3813,0.5612,0.0156,6,7,2025,Using single cell sequencing to investigate tumor microenvironment differences in left and right colon cancer and prognosis-related core genes
+SIG221,8,0.5519,0.5424,0.1956,0.5732,0.0096,5,4,2023,Integrative analysis reveals a four-gene signature for predicting survival and immunotherapy response in colon cancer patients using bulk and single-cell RNA-seq data
+SIG222,8,0.5441,0.5431,0.2941,0.5589,0.001,4,3,2024,Development and validation of prognostic signatures of NAD+ metabolism and immune-related genes in colorectal cancer
+SIG223,8,0.5218,0.5424,0.0933,0.5105,-0.0206,1,4,2023,Identification and validation of a novel stress granules-related prognostic model in colorectal cancer
+SIG224,8,0.6122,0.5431,0.3848,0.608,0.0691,8,3,2025,Machine learning identifies PYGM as a macrophage polarization-linked metabolic biomarker in rectal cancer prognosis
+SIG225,8,0.5751,0.5425,0.5879,0.579,0.0325,7,5,2026,Disulfidptosis-related genes signature predicts prognosis and immune microenvironment in colon cancer
+SIG226,8,0.5796,0.5423,0.3873,0.5826,0.0373,5,5,2025,SUMOylation-regulated genes in colon cancer: expression patterns and clinical implications
+SIG227,8,0.5448,0.5438,0.4896,0.5813,0.001,4,8,2025,Integrative Bioinformatics and Experimental Validation Establish CCNB1 as a Potential Biomarker for Diagnosis and Prognosis in Colorectal Cancer
+SIG228,8,0.5496,0.5432,0.1758,0.5068,0.0064,4,6,2025,Integration of single-cell and bulk RNA-sequencing data to construct and validate a signature based on NK cell marker genes to predict immunotherapy response and prognosis in colorectal cancer
+SIG229,8,0.5708,0.5424,0.2411,0.5826,0.0285,7,4,2025,Prognostic value of brown adipocyte-related genes in colorectal cancer: a multi-omics and Mendelian randomization study
+SIG230,8,0.5517,0.544,0.4192,0.5476,0.0077,5,16,2024,Integration of single-cell sequencing and bulk RNA-seq to identify and develop a prognostic signature related to colorectal cancer stem cells
+SIG231,8,0.5626,0.5431,0.3428,0.5316,0.0194,5,3,2025,Mito-fission gene prognostic model for colorectal cancer
+SIG232,8,0.5512,0.5431,0.3281,0.5644,0.0081,5,7,2024,Systemic immune profiling analysis identifying M2-TAM related genes predicted colon cancer prognosis and chemotherapy responses
+SIG233,8,0.553,0.5436,0.3522,0.5336,0.0093,4,10,2025,Comprehensive characterization of the molecular feature of acetylation in colorectal cancer using integrated single-cell and bulk RNA sequencing
+SIG234,8,0.5523,0.5438,0.2768,0.5458,0.0085,3,13,2023,Prognostic signature of colorectal cancer based on uric acid-related genes
+SIG235,8,0.5772,0.5432,0.4526,0.5918,0.0339,5,6,2024,An inflammation-related subtype classification for analyzing tumor microenvironment and clinical prognosis in colorectal cancer
+SIG236,8,0.5952,0.5425,0.4111,0.6301,0.0526,7,5,2025,Multi-omics analysis reveals different cholesterol metabolism subtypes in colorectal cancer
+SIG237,8,0.5722,0.5435,0.2665,0.5653,0.0288,6,6,2021,Development and validation of prognostic model based on the analysis of autophagy-related genes in colon cancer
+SIG238,8,0.5385,0.5432,0.2568,0.5611,-0.0047,3,6,2024,Identification and validation of a prognostic signature based on six immune-related genes for colorectal cancer
+SIG239,8,0.5429,0.5431,0.3128,0.5644,-0.0002,4,7,2025,Development of a novel angiogenesis-associated gene model for prognosis prediction in colorectal cancer
+SIG240,8,0.5352,0.5432,0.1379,0.5457,-0.008,2,6,2025,Oxidative stress gene expression in ulcerative colitis: implications for colon cancer biomarker discovery
+SIG241,8,0.5381,0.5426,0.0752,0.4926,-0.0045,2,4,2025,Identification of a signature gene set for oxaliplatin sensitivity prediction in colorectal cancer
+SIG242,8,0.5347,0.5432,0.3115,0.5261,-0.0086,5,6,2024,Comprehensive analyses of solute carrier family members identify SLC12A2 as a novel therapy target for colorectal cancer
+SIG243,8,0.5571,0.5436,0.5685,0.5807,0.0135,4,8,2024,Development and validation of epigenetic modification-related signals for the diagnosis and prognosis of colorectal cancer
+SIG244,8,0.5862,0.5441,0.6394,0.5869,0.0421,7,13,2024,Disulfidptosis-related prognostic signature correlates with immunotherapy response in colorectal cancer
+SIG245,8,0.5459,0.5429,0.3052,0.5291,0.003,4,3,2026,Comprehensive analysis of m6A RNA methylation regulators for prognostic risk stratification and immune microenvironment characterization in colorectal cancer
+SIG246,8,0.5457,0.5425,0.2948,0.5619,0.0032,4,5,2025,Development of a novel prognostic prediction model using mitochondrial-related genes and single-cell sequencing data for colorectal carcinoma
+SIG247,8,0.6017,0.5431,0.5365,0.5669,0.0585,8,3,2025,Molecular dynamics simulation and single-cell and spatial transcriptomics validate immune and prognostic biomarkers in colorectal cancer and construct a clinical prognostic model
+SIG248,8,0.5584,0.5425,0.3259,0.5396,0.0159,4,5,2026,The potential of mitochondrial permeability transition-driven necrosis-related genes in prognostic evaluation of colorectal cancer patients
+SIG249,8,0.5542,0.5424,0.1265,0.5552,0.0118,3,4,2025,CD47 expression in solid tumors correlates with phagocytic tumor-associated macrophage gene signature
+SIG250,8,0.5488,0.5424,0.3009,0.5853,0.0065,5,4,2025,Integrated network pharmacology and experimental verification to reveal the mechanisms of curcumin in the treatment of colorectal cancer
+SIG251,8,0.5672,0.5448,0.565,0.5618,0.0225,4,14,2024,Predictive role of oxidative stress-related genes in colon cancer: a retrospective cohort study based on The Cancer Genome Atlas
+SIG252,8,0.5739,0.5431,0.1957,0.5654,0.0308,5,3,2024,Chemokine family significance and prognostic value in colorectal cancer
+SIG253,8,0.5873,0.5432,0.4565,0.5602,0.0441,5,3,2024,Identification of a distinctive immunogenomic gene signature in stage-matched colorectal cancer
+SIG254,8,0.5359,0.5431,0.1571,0.5064,-0.0072,3,3,2025,Advancing Prognostic Accuracy Beyond Classical N Staging in Colorectal Cancer: An Observational Cohort Study to Define a Lymph Node Ratio Based Risk Score
+SIG255,8,0.554,0.5429,0.2024,0.5475,0.0111,4,3,2025,The KRAS-G12D mutation drives venous thromboembolism (VTE) and colorectal cancer progression via MAPK/ERK signaling
+SIG256,8,0.5607,0.5425,0.3396,0.5785,0.0182,5,5,2025,Integrate bulk RNA and single-cell sequencing to identify prognostic genes associated with dietary restriction and circadian rhythm in colorectal cancer and conduct experimental verification
+SIG257,8,0.5637,0.5432,0.2788,0.5701,0.0206,5,4,2025,The construction of a prognostic nomogram model for colorectal cancer and the prediction of immune characteristics and immune treatment responses based on the bioinformatics analysis of soluble mediator-related genes
+SIG258,8,0.534,0.5429,0.1748,0.5126,-0.0089,2,6,2022,A Novel Pyroptosis-Associated Gene Signature to Predict Prognosis in Patients with Colorectal Cancer
+SIG259,8,0.5269,0.5422,0.1601,0.5278,-0.0153,2,6,2024,Identification and validation of endoplasmic reticulum stress-related genes that enhance immunotherapy in colon cancer
+SIG260,8,0.5653,0.5425,0.4901,0.5729,0.0227,5,5,2022,"Exploring the Relationship Between Senescence and Colorectal Cancer in Prognosis, Immunity, and Treatment"
+SIG261,8,0.5651,0.5435,0.8223,0.5677,0.0217,5,14,2023,Identification of Hypoxia-Associated Signature in Colon Cancer to Assess Tumor Immune Microenvironment and Predict Prognosis Based on 14 Hypoxia-Associated Genes
+SIG262,8,0.5296,0.5433,0.1196,0.5292,-0.0137,1,6,2025,Comprehensive analysis of a palmitoylation-related prognostic signature in colorectal cancer: Implications for immune therapy and personalized treatment
+SIG263,8,0.5538,0.542,0.2842,0.5728,0.0118,4,4,2022,A novel enterocyte-related 4-gene signature for predicting prognosis in colon adenocarcinoma
+SIG264,8,0.6142,0.5432,0.6029,0.6096,0.071,6,6,2025,Identification of a metabolic-immune signature associated with prognosis in colon cancer and exploration of potential predictive efficacy of immunotherapy response
+SIG265,8,0.5907,0.5431,0.799,0.6141,0.0476,7,7,2025,FNDC5 and ACOX1 as Biomarkers of Peroxisomal Activity with Contrast Outcomes in Colon Adenocarcinoma
+SIG266,8,0.5607,0.5425,0.2925,0.5427,0.0182,5,5,2024,Construction and verification of a histone deacetylases-related prognostic signature model for colon cancer
+SIG267,8,0.5686,0.5436,0.6629,0.5785,0.025,7,11,2022,Identification of a novel lipid metabolism-related gene signature for predicting colorectal cancer survival
+SIG268,8,0.5602,0.5432,0.3067,0.5631,0.017,6,6,2024,Identification of a novel lymphangiogenesis signature associated with immune cell infiltration in colorectal cancer based on bioinformatics analysis
+SIG269,8,0.5428,0.543,0.2355,0.5318,-0.0002,3,3,2025,PLIN2 promotes colorectal cancer progression through CD36-mediated epithelial-mesenchymal transition
+SIG270,8,0.5676,0.5424,0.4594,0.546,0.0252,5,4,2023,Neurotransmitter receptor-related gene signature as potential prognostic and therapeutic biomarkers in colorectal cancer
+SIG271,8,0.5413,0.5423,0.1291,0.5432,-0.001,4,5,2025,Identification of Colorectal Cancer-Related RNA Markers from Whole Blood Using Integrated Bioinformatics Analysis
+SIG272,8,0.5716,0.5424,0.27,0.5537,0.0292,7,4,2025,Transformative insights from transcriptome analysis of colorectal cancer patient tissues: identification of four key prognostic genes
+SIG273,8,0.538,0.5424,0.231,0.5678,-0.0043,3,4,2023,Extracellular matrix-based gene signature for predicting prognosis in colon cancer and immune microenvironment
+SIG274,8,0.542,0.5438,0.1379,0.5417,-0.0018,3,8,2023,A pyroptosis-related gene signature that predicts immune infiltration and prognosis in colon cancer
+SIG275,8,0.5334,0.5424,0.1715,0.5544,-0.009,3,4,2025,Identification of a coagulation-related classification and signature that predict disease heterogeneity for colorectal cancer and pan-cancer patients
+SIG276,8,0.576,0.5438,0.4916,0.576,0.0322,7,12,2025,Immune gene features and prognosis in colorectal cancer: insights from ssGSEA typing
+SIG277,8,0.5177,0.5432,0.036,0.5208,-0.0256,1,6,2022,Novel six-gene prognostic signature based on colon adenocarcinoma immune-related genes
+SIG278,8,0.5748,0.5425,0.9678,0.5837,0.0323,7,5,2024,The exploration of mitochondrial-related features helps to reveal the prognosis and immunotherapy methods of colorectal cancer
+SIG279,8,0.5759,0.5431,0.4547,0.5907,0.0328,6,7,2022,Exploration of Reduced Mitochondrial Content-Associated Gene Signature and Immunocyte Infiltration in Colon Adenocarcinoma by an Integrated Bioinformatic Analysis
+SIG280,8,0.5293,0.5424,0.0376,0.5062,-0.013,1,4,2024,Construction and validation of prognostic model for colorectal mucinous adenocarcinoma patients and identification of a new prognosis related gene <i>FAM174B</i>
+SIG281,8,0.5636,0.5424,0.197,0.5867,0.0212,7,4,2025,Identification and Validation of a Macrophage Phagocytosis-Related Gene Signature for Prognostic Prediction in Colorectal Cancer (CRC)
+SIG282,8,0.5589,0.5442,0.6223,0.5856,0.0147,4,16,2023,A novel strategy for precise prognosis management and treatment option in colon adenocarcinoma with TP53 mutations
+SIG283,8,0.5559,0.5436,0.3686,0.5231,0.0122,6,10,2022,A mitophagy-related gene signature associated with prognosis and immune microenvironment in colorectal cancer
+SIG284,8,0.6185,0.5431,0.4589,0.6178,0.0754,7,3,2023,A Prognostic Model of Angiogenesis and Neutrophil Extracellular Traps Related Genes Manipulating Tumor Microenvironment in Colon Cancer
+SIG285,8,0.5636,0.5435,0.2897,0.5925,0.0201,5,9,2024,In-depth analysis of lymph node metastasis-related sialylated protein profiling and their clinical and biological significance in colorectal cancer using mass spectrometry and multi-omics technologies
+SIG286,8,0.5556,0.5425,0.4837,0.5628,0.0131,2,5,2024,The prognostic model and immune landscape based on cancer-associated fibroblast features for patients with locally advanced rectal cancer
+SIG287,8,0.5841,0.5431,0.3278,0.587,0.0409,7,3,2022,Integration of Bulk and Single-Cell RNA-Seq Data to Construct a Prognostic Model of Membrane Tension-Related Genes for Colon Cancer
+SIG288,8,0.5739,0.5425,0.3242,0.5509,0.0314,7,5,2025,AIF1L as a Ferroptosis-Linked Biomarker in Microsatellite States-Driven Colorectal Cancer: Functional and Diagnostic Insights From Multiomics Analysis
+SIG289,8,0.5642,0.544,0.7248,0.5368,0.0202,5,17,2024,Identification and validation of a novel 17 coagulation-related genes signature for predicting prognostic risk in colorectal cancer
+SIG290,8,0.598,0.5431,0.414,0.5698,0.0549,6,3,2023,Establishment and validation of a ferroptosis-related signature predicting prognosis and immunotherapy effect in colon cancer
+SIG291,8,0.5966,0.5431,0.395,0.5669,0.0535,6,3,2024,Construction and Validation of Novel Ferroptosis-related Risk Score Signature and Prognostic Prediction Nomogram for Patients with Colorectal Cancer
+SIG292,8,0.5459,0.5434,0.4835,0.5486,0.0025,5,15,2024,Plasma proteomic and polygenic profiling improve risk stratification and personalized screening for colorectal cancer
+SIG293,8,0.5504,0.5433,0.293,0.562,0.0071,3,7,2023,Construction of a prognostic signature associated with liver metastases for prognosis and immune response prediction in colorectal cancer
+SIG294,8,0.5459,0.5426,0.3525,0.5324,0.0033,4,4,2023,Construction of a DDR-related signature for predicting of prognosis in metastatic colorectal carcinoma
+SIG295,8,0.5351,0.5435,0.1507,0.512,-0.0084,3,9,2025,Development of a prognostic prediction model based on damage-associated molecular pattern for colorectal cancer applying bulk RNA-seq analysis
+SIG296,8,0.5652,0.5434,0.1915,0.5561,0.0218,4,11,2021,Identification of a prognostic gene signature of colon cancer using integrated bioinformatics analysis
+SIG297,8,0.5522,0.5436,0.2467,0.584,0.0086,5,11,2025,Cancer-associated fibroblasts shape the formation of budding cancer cells at the invasive front of human colorectal cancer
+SIG298,8,0.5255,0.5434,0.2772,0.5129,-0.0179,1,9,2022,A Prognostic Model for Colon Adenocarcinoma Patients Based on Ten Amino Acid Metabolism Related Genes
+SIG300,8,0.536,0.5425,0.1718,0.5586,-0.0065,3,5,2022,Identification of a 5-Nutrient Stress-Sensitive Gene Signature to Predict Survival for Colorectal Cancer
+SIG301,8,0.5775,0.5431,0.4191,0.5981,0.0344,6,7,2024,Construction of a new prognostic model for colorectal cancer based on bulk RNA-seq combined with The Cancer Genome Atlas data
+SIG302,8,0.5577,0.5429,0.3419,0.5611,0.0148,4,6,2024,Constructing a prognostic model for colon cancer: insights from immunity-related genes
+SIG303,8,0.542,0.5431,0.0134,0.536,-0.0011,3,3,2024,Four centrosome-related genes to predict the prognosis and drug sensitivity of patients with colon cancer
+SIG304,8,0.5675,0.5424,0.3287,0.5636,0.0252,6,4,2024,"Targeting nucleotide metabolic pathways in colorectal cancer by integrating scRNA-seq, spatial transcriptome, and bulk RNA-seq data"
+SIG305,8,0.556,0.5431,0.3772,0.5619,0.0129,6,7,2025,ZNF385A was identified as a novel colorectal cancer-related functional gene by analysis of the interaction and immune characteristics of oxidative stress and the inflammatory response
+SIG306,8,0.5559,0.5436,0.4175,0.5825,0.0123,5,11,2022,A Novel Pyroptosis-Related Prognostic Signature for Risk Stratification and Clinical Prognosis in Clear Cell Renal Cell Carcinoma
+SIG307,8,0.5423,0.5441,0.2723,0.563,-0.0018,4,13,2024,Identification of a novel macrophage-related prognostic signature in colorectal cancer
+SIG308,8,0.5838,0.5425,0.3034,0.6091,0.0413,7,5,2023,CAF signature predicts the prognosis of colorectal cancer patients: A retrospective study based on bulk RNA sequencing and single-cell RNA sequencing data
+SIG309,8,0.5954,0.5432,0.4294,0.6188,0.0522,7,3,2025,Migrasome-Related Genes as Potential Prognosis and Immunotherapy Response Predictors for Colorectal Cancer
+SIG310,8,0.5286,0.5424,0.1222,0.5291,-0.0138,2,4,2024,Comprehensive analysis and experimental verification of the mechanism of action of T cell-mediated tumor-killing related genes in Colon adenocarcinoma
+SIG311,8,0.5565,0.5432,0.3231,0.5322,0.0133,4,5,2023,Integrated single-cell and bulk RNA sequencing analysis identifies a prognostic signature related to ferroptosis dependence in colorectal cancer
+SIG312,8,0.5537,0.5435,0.3822,0.5563,0.0102,5,9,2024,"Identification of a basement membrane-related gene signature for predicting prognosis, immune infiltration, and drug sensitivity in colorectal cancer"
+SIG313,8,0.5503,0.5431,0.1309,0.5226,0.0071,4,3,2024,Multi-Algorithm-Integrated Tertiary Lymphoid Structure Gene Signature for Immune Landscape Characterization and Prognosis in Colorectal Cancer Patients
+SIG314,8,0.5653,0.5434,0.6468,0.5754,0.0219,5,8,2023,Proteome-Wide Analysis Reveals TFEB Targets for Establishment of a Prognostic Signature to Predict Clinical Outcomes of Colorectal Cancer
+SIG315,8,0.5471,0.5438,0.1391,0.5362,0.0033,4,8,2024,Classification of molecular subtypes for colorectal cancer and development of a prognostic model based on necroptosis-related genes
+SIG316,8,0.6089,0.5436,0.7303,0.6341,0.0653,8,10,2025,Meta_B cells: a computationally identified candidate immunosuppressive driver of gastric cancer metastasis revealed by single-cell analysis and machine learning
+SIG317,8,0.5418,0.5431,0.3323,0.5276,-0.0013,4,7,2023,A novel investigation into an E2F transcription factor-related prognostic model with seven signatures for colon cancer patients
+SIG318,8,0.5708,0.5424,0.4576,0.5754,0.0285,6,4,2020,Development and Clinical Validation of a Novel 4-Gene Prognostic Signature Predicting Survival in Colorectal Cancer
+SIG319,8,0.5504,0.5438,0.2211,0.5488,0.0066,6,8,2022,A novel prognostic model based on urea cycle-related gene signature for colorectal cancer
+SIG320,8,0.5656,0.5438,0.417,0.5477,0.0219,7,8,2023,Integrating scRNA-seq and bulk RNA-seq to characterize infiltrating cells in the colorectal cancer tumor microenvironment and construct molecular risk models
+SIG321,8,0.5357,0.5431,0.1879,0.5414,-0.0074,2,3,2024,Identification of key programmed cell death genes for predicting prognosis and treatment sensitivity in colorectal cancer
+SIG322,8,0.5373,0.5431,0.2515,0.5527,-0.0058,4,7,2024,Identification and validation of a pyroptosis-related prognostic model for colorectal cancer based on bulk and single-cell RNA sequencing data
+SIG323,8,0.5796,0.5425,0.6583,0.5626,0.0371,6,5,2021,Identification of Five Glycolysis-Related Gene Signature and Risk Score Model for Colorectal Cancer
+SIG324,8,0.5749,0.5431,0.2496,0.5587,0.0318,5,3,2023,Transient receptor potential channels as predictive marker and potential indicator of chemoresistance in colon cancer
+SIG325,8,0.6271,0.5431,0.569,0.6235,0.084,8,3,2024,Experimental prognostic model integrating N6-methyladenosine-related programmed cell death genes in colorectal cancer
+SIG326,8,0.5355,0.5432,0.3797,0.5405,-0.0077,3,9,2021,A Ferroptosis-Related Gene Signature Identified as a Novel Prognostic Biomarker for Colon Cancer
+SIG327,8,0.5975,0.543,0.3394,0.5961,0.0544,7,3,2024,Identification of a Novel 4-gene Prognostic Model Related to Neutrophil Extracellular Traps for Colorectal Cancer
+SIG328,8,0.5685,0.5427,0.1647,0.5608,0.0257,4,9,2025,A multi-omic analysis reveals a predictive value of tertiary lymphoid structures in improving the prognosis of colorectal cancer patients with BRAF mutation
+SIG329,8,0.5848,0.5432,0.2999,0.5728,0.0417,5,5,2022,Identification of a 5-gene-based signature to predict prognosis and correlate immunomodulators for rectal cancer
+SIG330,8,0.542,0.5442,0.3222,0.5553,-0.0021,4,16,2021,Identification of a Tumor Microenvironment-Related Gene Signature Indicative of Disease Prognosis and Treatment Response in Colon Cancer
+SIG331,8,0.5583,0.5424,0.3983,0.5768,0.0159,7,4,2023,A novel nomogram based on cell cycle-related genes for predicting overall survival in early-onset colorectal cancer
+SIG332,8,0.5929,0.5431,0.2609,0.6058,0.0498,8,3,2023,A WGCNA-based cancer-associated fibroblast risk signature in colorectal cancer for prognosis and immunotherapy response
+SIG334,8,0.5402,0.5424,0.1447,0.5256,-0.0021,3,4,2022,A glycolysis-related two-gene risk model that can effectively predict the prognosis of patients with rectal cancer
+SIG335,8,0.5644,0.5434,0.463,0.5648,0.021,3,8,2022,Identification of the prognostic signature based on genomic instability-related alternative splicing in colorectal cancer and its regulatory network
+SIG336,8,0.5768,0.5431,0.256,0.585,0.0337,5,3,2022,Development of an exosome-related and immune microenvironment prognostic signature in colon adenocarcinoma
+SIG337,8,0.562,0.5424,0.198,0.5674,0.0196,4,4,2024,Comparison of left- and right-sided colorectal cancer to explore prognostic signatures related to pyroptosis
+SIG338,8,0.5481,0.5431,0.1668,0.5696,0.005,3,3,2023,Developing an m5C regulator-mediated RNA methylation modification signature to predict prognosis and immunotherapy efficacy in rectal cancer

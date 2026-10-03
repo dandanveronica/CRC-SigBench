@@ -1,0 +1,21 @@
+sig_id,队列数,C均值,随机C均值,平均ΔC,优于随机的队列数,校准斜率中位,year,基因数,title
+SIG325,8,0.6271,0.5431,0.084,8,0.569,2024,3,Experimental prognostic model integrating N6-methyladenosine-related programmed cell death genes in colorectal cancer
+SIG284,8,0.6185,0.5431,0.0754,7,0.4589,2023,3,A Prognostic Model of Angiogenesis and Neutrophil Extracellular Traps Related Genes Manipulating Tumor Microenvironment in Colon Cancer
+SIG264,8,0.6142,0.5432,0.071,6,0.6029,2025,6,Identification of a metabolic-immune signature associated with prognosis in colon cancer and exploration of potential predictive efficacy of immunotherapy response
+SIG064,8,0.6136,0.5431,0.0704,8,0.4605,2026,3,Analysis and validation of mast cells and enriched genes in colorectal cancer with liver metastasis by multi-omics data
+SIG095,8,0.6136,0.5443,0.0693,8,0.9752,2023,18,A Novel Lipid Metabolism and Endoplasmic Reticulum Stress-Related Risk Model for Predicting Immune Infiltration and Prognosis in Colorectal Cancer
+SIG224,8,0.6122,0.5431,0.0691,8,0.3848,2025,3,Machine learning identifies PYGM as a macrophage polarization-linked metabolic biomarker in rectal cancer prognosis
+SIG163,8,0.6097,0.5424,0.0674,8,0.4582,2025,4,Proteomics-based prognostic signature in colon adenocarcinoma patients with familial adenomatous polyposis
+SIG316,8,0.6089,0.5436,0.0653,8,0.7303,2025,10,Meta_B cells: a computationally identified candidate immunosuppressive driver of gastric cancer metastasis revealed by single-cell analysis and machine learning
+SIG154,8,0.6081,0.5431,0.065,8,0.5886,2026,3,Metastatic immune microenvironment remodeling by malignant epithelial cells drives colorectal cancer hepatic metastasis: Multi-omics insights
+SIG124,8,0.6074,0.5424,0.065,8,0.5658,2026,4,Integrative single-cell and spatial multi-Omics analyses identify NETs-driven colon cancer subtypes with distinct metabolic features and prognostic implications
+SIG168,8,0.6067,0.5435,0.0632,8,0.3685,2025,9,A novel anoikis related gene prognostic model for colorectal cancer based on single cell sequencing and bulk transcriptome analyses
+SIG157,8,0.6024,0.5425,0.0599,8,0.6698,2026,5,Construction and validation of a prognostic model based on anoikis-fatty acid metabolism-related genes in colorectal cancer: A retrospective cohort study
+SIG148,8,0.6026,0.5434,0.0592,7,0.5736,2026,8,Colorectal cancer molecular subtypes and prognostic models based on NET-related genes and oxidative stress-associated signaling
+SIG247,8,0.6017,0.5431,0.0585,8,0.5365,2025,3,Molecular dynamics simulation and single-cell and spatial transcriptomics validate immune and prognostic biomarkers in colorectal cancer and construct a clinical prognostic model
+SIG018,8,0.6007,0.5435,0.0572,7,0.6,2025,9,A novel gene signature for predicting outcome in colorectal cancer patients based on tumor cell-endothelial cell interaction via single-cell sequencing and machine learning
+SIG186,8,0.6026,0.5454,0.0572,7,0.791,2025,19,Construction of a Prognostic Model based on CSC-related Genes in Patients with Colorectal Cancer
+SIG082,8,0.6001,0.5432,0.0568,7,0.4403,2026,6,Identification and evaluation of glutamine-related gene characteristics based on multi-omics to predict the prognosis of patients with colorectal cancer
+SIG200,8,0.5998,0.5431,0.0567,7,0.3681,2026,3,Integrated single-cell and spatial transcriptomic analysis reveals mCAF-SPP1⁺ macrophage-T cell crosstalk shaping immunosuppressive niches in colorectal cancer liver metastasis
+SIG028,8,0.5989,0.5424,0.0566,8,0.3148,2025,4,Development and validation of a cancer-associated fibroblast gene signature-based model for predicting immunotherapy response in colon cancer
+SIG084,8,0.6007,0.5445,0.0561,8,0.6049,2024,15,Consensus clustering and development of a risk signature based on trajectory differential genes of cancer-associated fibroblast subpopulations in colorectal cancer
