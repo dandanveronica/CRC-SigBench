@@ -46,6 +46,7 @@ Licence: CC0 1.0 Universal.
 | De novo and home advantage | `home_advantage_highconf.csv` | `回巢优势_终版_高置信.csv` | 回巢优势（高置信口径） |
 | De novo and home advantage | `home_advantage_permutation.csv` | `回巢_置换检验.csv` | 回巢优势置换检验 |
 | De novo and home advantage | `home_vs_unfamiliar.csv` | `回巢_自家vs陌生.csv` | 自家 vs 陌生队列 |
+| De novo and home advantage | `home_cohort_mapping_reconstructed.csv` | `回巢_队列映射_反推重建.csv` | 101 个签名的声明训练队列 → 我方队列归属（正文 §3.12 分层分析所用；由 `home_advantage_lenient.csv` 的 `d_home` / `d_away` 双重约束反推重建，101/101 命中且解唯一，因 25d 原始中间产物 `audit_out_clean/` 未入库） |
 | Cross-platform | `top20_robust.csv` | `最稳健签名_Top20_8队列.csv` | 8 队列最稳健签名 Top20 |
 | Cross-platform | `cross_platform_pairing.csv` | `跨平台配对_8队列.csv` | RNA-seq vs 芯片跨平台配对 |
 | Cross-platform | `tcga_stratified.csv` | `TCGA分层.csv` | TCGA 分层结果 |
