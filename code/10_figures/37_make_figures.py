@@ -32,9 +32,9 @@ RNA = pc[pc.cohort == 'TCGA_COADREAD']
 
 # ============================================================ Figure 1: flow
 def fig1():
-    fig, ax = plt.subplots(figsize=(7.6, 8.8))
+    fig, ax = plt.subplots(figsize=(7.6, 5.6))
     ax.axis('off')
-    ax.set_xlim(0, 100); ax.set_ylim(0, 106)
+    ax.set_xlim(0, 100); ax.set_ylim(26, 95)
 
     def box(x, y, w, h, title, body, fc, fs_t=8.4, fs_b=7.8):
         ax.add_patch(plt.Rectangle((x, y), w, h, fc=fc, ec=GREY, lw=1.0,
@@ -52,24 +52,17 @@ def fig1():
                                     shrinkA=2, shrinkB=2))
 
     CX, CW = 15, 70
-    box(CX, 92, CW, 8.5, 'Europe PMC systematic search (2020-2026)',
-        '1,241 records registered and tracked', '#DCE6F1')
-    arrow(50, 92, 50, 88.2)
-    box(CX, 78, CW, 9.5, 'Eligibility screening (unit = signature, not publication)',
-        'protein-coding mRNA  |  prognostic outcome  |  multigene\n'
-        'complete gene list + explicit scoring rule  |  tumour tissue', '#EAF0F7')
-    arrow(50, 78, 50, 74.2)
-    box(CX, 64, CW, 9.5, '338 candidate signatures',
-        '18 removed: gene count <=2, non-CRC,\nscreening/response-only models, duplicates', '#F7E5D8')
-    arrow(50, 64, 50, 60.2)
-    box(CX, 51, CW, 8.5, '320 signatures   |   320 publications',
-        '1,514 unique HGNC symbols', '#D5F0E3')
-    arrow(50, 51, 50, 47.2)
-    box(CX, 37.5, CW, 9.5, '8 fully independent cohorts',
+    # 顶部三框（检索 / 筛选条件 / 338 候选）已删除：其全部细节见 Figure 5 的 PRISMA 流程图。
+    # 本图只负责 PRISMA 不覆盖的部分——研究库、队列、统一评分与四个分析臂。
+    box(CX, 80, CW, 9.5, '320 signatures   |   320 publications',
+        '1,514 unique HGNC symbols\n'
+        'identified from 1,241 records; screening flow in Figure 5', '#D5F0E3')
+    arrow(50, 80, 50, 76.2)
+    box(CX, 66, CW, 9.5, '8 fully independent cohorts',
         '7 GEO microarrays (n = 1,458) + TCGA COADREAD RNA-seq (n = 358)\n'
         'total 1,816 patients, 497 events', '#DCE6F1')
-    arrow(50, 37.5, 50, 33.7)
-    box(CX, 24.5, CW, 8.5, 'Uniform reconstruction and scoring',
+    arrow(50, 66, 50, 62.2)
+    box(CX, 52, CW, 8.5, 'Uniform reconstruction and scoring',
         'within-cohort z-standardisation  |  oriented C-index  |  coefficients as published', '#EAF0F7')
 
     labels = [('Arm A', 'Primary evaluation\n320 x 8 = 2,560 external\nvalidations: C, AUC,\ncalibration, DCA', '#DCE6F1'),
@@ -79,13 +72,14 @@ def fig1():
     ws = 21.0
     for k, (tag, body, col) in enumerate(labels):
         x = 4 + k * (ws + 2.2)
-        ax.annotate('', xy=(x + ws/2, 22.5), xytext=(50, 24.5),
+        ax.annotate('', xy=(x + ws/2, 42.5), xytext=(50, 52),
                     arrowprops=dict(arrowstyle='-|>', lw=0.9, color=GREY,
                                     connectionstyle='arc3,rad=0',
                                     shrinkA=2, shrinkB=1))
-        box(x, 9.5, ws, 12.5, tag, body, col, fs_t=8.6, fs_b=7.0)
+        box(x, 30, ws, 12.5, tag, body, col, fs_t=8.6, fs_b=7.0)
 
-    ax.text(50, 104.5, 'Figure 1. Study flow', ha='center', fontsize=10.5, fontweight='bold')
+    ax.text(50, 93.5, 'Figure 1. Study design and analysis arms', ha='center',
+            fontsize=10.5, fontweight='bold')
     fig.savefig(f'{OUT}/Figure1_study_flow.png', dpi=300, bbox_inches='tight', facecolor='white')
     plt.close(fig)
     print('Figure 1 ok')
