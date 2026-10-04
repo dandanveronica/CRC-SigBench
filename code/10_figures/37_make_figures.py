@@ -62,21 +62,26 @@ def fig1():
         '7 GEO microarrays (n = 1,458) + TCGA COADREAD RNA-seq (n = 358)\n'
         'total 1,816 patients, 497 events', '#DCE6F1')
     arrow(50, 66, 50, 62.2)
-    box(CX, 52, CW, 8.5, 'Uniform reconstruction and scoring',
-        'within-cohort z-standardisation  |  oriented C-index  |  coefficients as published', '#EAF0F7')
+    box(CX, 52, CW, 9.5, 'Uniform reconstruction and scoring',
+        'within-cohort z-standardisation  |  oriented C-index\n'
+        'coefficients as published', '#EAF0F7')
 
-    labels = [('Arm A', 'Primary evaluation\n320 x 8 = 2,560 external\nvalidations: C, AUC,\ncalibration, DCA', '#DCE6F1'),
-              ('Arm B', 'Four-tier comparison\nsize-matched random null\n(B = 1,000) +\nde novo comparators', '#F7E5D8'),
-              ('Arm C', 'Attribution & bias\n15 methodological\nvariables; claimed vs\nrecomputed', '#D5F0E3'),
-              ('Arm D', 'Re-derivation\nminimal-compliant protocol;\nown signature,\nsame judgement', '#FDF2CC')]
-    ws = 21.0
+    labels = [('Arm A', 'Primary evaluation\n320 x 8 = 2,560\nexternal validations\n'
+                        'C, AUC, calibration,\nDCA', '#DCE6F1'),
+              ('Arm B', 'Four-tier comparison\nsize-matched random\nnull (B = 1,000) +\n'
+                        'de novo comparators', '#F7E5D8'),
+              ('Arm C', 'Attribution & bias\n15 methodological\nvariables; claimed\n'
+                        'vs recomputed', '#D5F0E3'),
+              ('Arm D', 'Re-derivation\nminimal-compliant\nprotocol; own\n'
+                        'signature, same\njudgement', '#FDF2CC')]
+    ws = 22.0
     for k, (tag, body, col) in enumerate(labels):
-        x = 4 + k * (ws + 2.2)
-        ax.annotate('', xy=(x + ws/2, 42.5), xytext=(50, 52),
+        x = 2.5 + k * (ws + 2.2)
+        ax.annotate('', xy=(x + ws/2, 45), xytext=(50, 52),
                     arrowprops=dict(arrowstyle='-|>', lw=0.9, color=GREY,
                                     connectionstyle='arc3,rad=0',
                                     shrinkA=2, shrinkB=1))
-        box(x, 30, ws, 12.5, tag, body, col, fs_t=8.6, fs_b=7.0)
+        box(x, 30, ws, 15, tag, body, col, fs_t=8.6, fs_b=6.6)
 
     ax.text(50, 93.5, 'Figure 1. Study design and analysis arms', ha='center',
             fontsize=10.5, fontweight='bold')
