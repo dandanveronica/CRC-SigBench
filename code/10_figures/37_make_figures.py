@@ -66,7 +66,7 @@ def fig1():
         '1,514 unique HGNC symbols', '#D5F0E3')
     arrow(50, 51, 50, 47.2)
     box(CX, 37.5, CW, 9.5, '8 fully independent cohorts',
-        '7 GEO microarrays (n = 1,454) + TCGA COADREAD RNA-seq (n = 358)\n'
+        '7 GEO microarrays (n = 1,458) + TCGA COADREAD RNA-seq (n = 358)\n'
         'total 1,816 patients, 497 events', '#DCE6F1')
     arrow(50, 37.5, 50, 33.7)
     box(CX, 24.5, CW, 8.5, 'Uniform reconstruction and scoring',
