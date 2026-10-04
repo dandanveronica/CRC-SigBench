@@ -311,10 +311,20 @@ def fig4():
     ax.text(.015, .93, f'usable region (C>=0.60, slope>=0.70):\n{int(((U.C_mean>=0.60)&(U.calib>=0.70)).sum())} of 320 signatures',
             transform=ax.transAxes, va='top', fontsize=7.4,
             bbox=dict(fc='white', ec=RED, lw=.6, pad=3))
-    top = U.nlargest(5, 'C_mean')
+    top = U.nlargest(5, 'C_mean').sort_values('calib')
+    # 标签错位排布：点彼此靠近时（SIG064 与 SIG284 的 C 与 slope 都几乎相同）
+    # 统一 (3,3) 偏移会让两段文字叠印成不可读的一团，故按 calib 升序逐个判断，
+    # 与前一个标签足够近则把本标签上抬一级。仅影响标注位置，不改任何数据点。
+    prev = None
+    lvl = 0
     for _, t in top.iterrows():
-        ax.annotate(t.sig_id, (t.C_mean, t.calib), fontsize=6.6, xytext=(3, 3),
+        if prev is not None and abs(t.C_mean - prev[0]) < 0.012 and abs(t.calib - prev[1]) < 0.06:
+            lvl += 1
+        else:
+            lvl = 0
+        ax.annotate(t.sig_id, (t.C_mean, t.calib), fontsize=6.6, xytext=(3, 3 + 11 * lvl),
                     textcoords='offset points', color=RED)
+        prev = (t.C_mean, t.calib)
     ax.set_xlabel('Mean C-index across 8 cohorts')
     ax.set_ylabel('Mean calibration slope (ideal = 1.0)')
     ax.set_title('D  The clinically usable quadrant is nearly empty', loc='left', fontsize=9, fontweight='bold')
