@@ -102,7 +102,9 @@ if os.path.exists(SP):
     sp_ok = sp.dropna(subset=["dC"])
     tiers.insert(0, ("L0 队列内 split-half", sp_ok["dC"].dropna()))
 for name, x in tiers:
-    w = stats.wilcoxon(x, alternative="greater")[1]
+    # 双侧，与正文 2.10 节 "All tests were two-sided at alpha = 0.05 unless stated" 一致。
+    # (原为单侧 greater，对应旧稿 Table 3 的 7.4e-49；双侧为 1.5e-48，即正文口径)
+    w = stats.wilcoxon(x, alternative="two-sided")[1]
     rows.append(dict(层级=name, n=len(x), ΔC中位=round(x.median(), 4),
                      四分位=f"{x.quantile(.25):+.4f} ~ {x.quantile(.75):+.4f}",
                      优于随机比例=f"{(x>0).mean():.1%}", 对0检验p=f"{w:.3g}"))
