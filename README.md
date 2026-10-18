@@ -2,6 +2,24 @@
 
 https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605/OSF.IO/6PF43 · Code: MIT · Data and results: CC0 1.0
 
+> **Version note (17 October 2026).** Releases **v1.0.0–v1.0.2** are the *pre-audit snapshot*: they
+> hold the 320-signature library and the 2,560-row result matrix exactly as analysed at the time of
+> OSF registration (3 October 2026). A post-hoc eligibility audit (17 October 2026) re-read all 338
+> candidate publications in full text and removed 8 that did not meet the eligibility criteria,
+> leaving **312 signatures** and **2,496** external validations. Release **v1.1.0** deposits the
+> audited artefacts — `data/signatures/signature_library_312_genes.csv` and
+> `results/per_cohort_2496.csv` — next to the 320-signature snapshot; both catalogues share an
+> identical schema, so the audited one can be substituted straight into stage B. No decision rule,
+> threshold or cohort selection was altered by the audit, and the audited matrices are also supplied
+> as Additional files 1–3 of the companion article.
+>
+> **Pipeline note.** The audited matrices come from a pipeline that additionally restricts every
+> cohort to primary tumour samples (19 mucosa samples excluded from GSE39582, 160 from GSE87211).
+> That restriction is documented in Section 2.2 of the article's supplementary material but is
+> *not yet* in the code at v1.0.2, so re-running stage B on the 312-signature catalogue will not
+> reproduce `per_cohort_2496.csv` exactly. The pipeline upgrade and an end-to-end re-run
+> verification are scheduled for **v1.2.0**.
+
 ## What this is
 
 A reproducible benchmark that re-evaluates **320** published protein-coding mRNA prognostic
@@ -40,10 +58,11 @@ CRC-SigBench/
 │   ├── 11_search/                # PRISMA 2020 search strategy for the signature corpus
 │   └── 99_auxiliary/             # supporting and superseded scripts retained for transparency
 ├── data/
-│   └── signatures/               # 320 signatures: gene lists + coefficients, metadata, claimed values
+│   └── signatures/               # 320 (v1.0.x) + 312 (v1.1.0) signatures: gene lists, metadata, claimed values
 └── results/
     ├── README.md                 # data dictionary for every result file
-    └── per_cohort_2560.csv       # ONE ROW PER SIGNATURE x COHORT — the core deliverable
+    ├── per_cohort_2560.csv       # ONE ROW PER SIGNATURE x COHORT — pre-audit core deliverable (v1.0.x)
+    └── per_cohort_2496.csv       # post-audit core deliverable, 312 signatures (v1.1.0)
 ```
 
 ### The signature catalogue (what gets scored)
@@ -52,6 +71,10 @@ CRC-SigBench/
 consumes: one row per audited signature with `sig_id`, year, journal, title, PMCID, source URL,
 gene count and the **actual gene list** (semicolon-separated). All 320 signatures are present and
 all 320 carry a non-empty gene list (7.8 genes on average).
+
+Release v1.1.0 adds `data/signatures/signature_library_312_genes.csv` — the same schema, restricted
+to the 312 signatures that survived the post-hoc eligibility audit of 17 October 2026 (the 8 removed
+signatures are listed, with reasons, in Table A8 of the article's supplementary material).
 
 > **Scoring note (honest disclosure).** The catalogue contains **gene lists only** — no risk-score
 > coefficients. `code/03_score/` therefore scores every signature as the *unweighted* mean of
@@ -109,6 +132,18 @@ significantly better than a size-matched random gene set** (minimum adjusted p =
 Reported 5-year AUC exceeded our recomputation by a median of **+0.176** across 103 matched
 pairs (99% in the same direction); **7.8%** of pairs reproduced within ±0.05.
 
+### Post-audit (v1.1.0, 312 signatures / 2,496 evaluations)
+
+Removing the 8 ineligible publications leaves the conclusion unchanged and slightly stronger.
+After Benjamini–Hochberg correction across all 2,496 tests, **no signature was significantly
+better than the size-matched random null** (minimum adjusted p = 0.071). The median signature
+reached C = 0.555 and a median ΔC_random of **+0.0107** (+0.0045 over routine clinical variables);
+299 of 2,496 evaluations were nominally positive and none survived correction. Median calibration
+slope across signatures was 0.363, and **3 of 312** signatures fell inside the usable region
+(C ≥ 0.60 with slope ≥ 0.70) — 2 of them under the joint criterion locked in the OSF registration.
+The claimed-versus-recomputed AUC comparison covers **100** matched pairs (median difference
++0.161; 99.0% in the same direction; 10.0% reproduced within ±0.05).
+
 ## Known and corrected defect
 
 An early version of the scoring code contained a silent row-misalignment defect: `coxph` drops
@@ -117,7 +152,7 @@ warning, misaligning predictions with survival times. It affected ΔC-index in t
 with missing stage (GSE39582: 1 sample; TCGA: 11 samples) and nothing else. It was found and
 fixed before any result was reported; the fix, its numerical impact and the pre-fix script
 snapshot are documented in `code/04_evaluate/DEFECT_LOG.md` and reported in full in the
-manuscript (Section 2.11).
+supplementary material of the companion article (Section 2.11).
 
 ## Citation
 

@@ -5,9 +5,15 @@ Columns are documented per file inside each header row; the "original file" colu
 name used by the pipeline, kept so that any intermediate can be traced back on request.
 Licence: CC0 1.0 Universal.
 
+**Versions.** Files tagged v1.0.x are the pre-audit snapshot (320 signatures). `per_cohort_2496.csv`
+was added at v1.1.0 and is the post-audit matrix (312 signatures after the eligibility audit of
+17 October 2026); it shares the exact column schema of `per_cohort_2560.csv`. See the version note
+in the top-level README for the pipeline caveat attached to the audited matrix.
+
 | Group | File | Original file | Description |
 |---|---|---|---|
-| Core matrix | `per_cohort_2560.csv` | `per_cohort_8队列.csv` | CORE: 320 签名 x 8 队列，一行一次外部验证 |
+| Core matrix | `per_cohort_2560.csv` | `per_cohort_8队列.csv` | CORE (pre-audit, v1.0.x): 320 签名 x 8 队列，一行一次外部验证 |
+| Core matrix | `per_cohort_2496.csv` | `S1_2496次评估逐条结果.csv` | CORE (post-audit, v1.1.0): 312 签名 x 8 队列 = 2,496 行，schema 与 2560 版一致 |
 | Core matrix | `signature_level_summary.csv` | `签名级_8队列汇总.csv` | 签名级跨队列汇总 |
 | Core matrix | `signature_level_usability.csv` | `签名级可用性判决.csv` | 可用性判决（C / ΔC / 校准三条件） |
 | Core matrix | `gene_count_vs_deltaC.csv` | `签名级_基因数vsΔC.csv` | 基因数 vs ΔC |
