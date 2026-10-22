@@ -1,8 +1,10 @@
 # CRC-SigBench — a cross-cohort benchmark of colorectal cancer prognostic transcriptomic signatures
 
-**Current release: v1.1.0 (17 October 2026) — 312 signatures, 2,496 external validations, after the
-post-hoc eligibility audit. The 320-signature pre-audit snapshot analysed at the time of OSF
-registration (3 October 2026) is preserved unchanged at v1.0.0–v1.0.2 — see the Version note below.**
+**Current release: v1.2.0 (22 October 2026) — the five manuscript figures are now reproducible from
+this repository by script, at the exact resolution and dimensions submitted. The underlying result
+set is unchanged from v1.1.0: 312 signatures, 2,496 external validations, after the post-hoc
+eligibility audit. The 320-signature pre-audit snapshot analysed at the time of OSF registration
+(3 October 2026) is preserved unchanged at v1.0.0–v1.0.2 — see the Version notes below.**
 
 https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605/OSF.IO/6PF43 · Code: MIT · Data and results: CC0 1.0
 
@@ -27,7 +29,21 @@ https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605
 > That restriction is documented in Section 2.2 of the article's supplementary material but is
 > *not yet* in the code at v1.0.2, so re-running stage B on the 312-signature catalogue will not
 > reproduce `per_cohort_2496.csv` exactly. The pipeline upgrade and an end-to-end re-run
-> verification are scheduled for **v1.2.0**.
+> verification are **still outstanding**, now scheduled for **v1.3.0** (v1.2.0 delivered the
+> figure pipeline instead — see the v1.2.0 note below).
+>
+> **Version note (22 October 2026) — v1.2.0.** The scripts that produced the five submitted
+> figures previously lived outside this repository and hard-coded a local submission-directory
+> path, so they could neither be inspected nor re-run by a third party. v1.2.0 ports them into
+> `code/10_figures/` (`41_figure1_prisma_312.py` … `45_figure5_trends_312.py`) with
+> repository-relative paths, and deposits the supplementary tables they read into
+> `results/submission_tables/`. Re-running the five scripts regenerates `results/figures/`
+> byte-for-byte identically to the submitted artwork (verified by MD5), at 139.1 × 183.6,
+> 142.8 × 95.7, 186.0 × 135.6, 182.8 × 130.1 and 176.6 × 130.1 mm respectively.
+> `code/10_figures/37_make_figures.py` is retained but marked **DEPRECATED**: it depends on
+> un-deposited intermediate files, filters on the 320-signature catalogue, and was never upgraded
+> to the submission artwork specification. The 320-signature artefacts it belongs with are
+> quarantined in `legacy/v1.0.x/`.
 
 ## What this is
 
@@ -71,20 +87,29 @@ CRC-SigBench/
 │   ├── 08_cutpoint/              # cut-point search experiment
 │   ├── 09_rederivation/          # Part 3: minimal-compliant de novo signature, locked validation
 │   ├── 10_figures/               # manuscript figures
+│   │   ├── 41–45_*_312.py        # v1.2.0: the five submitted figures, repository-relative paths
+│   │   └── 37_make_figures.py    # DEPRECATED (v1.2.0): superseded by 41–45, kept for provenance
 │   ├── 11_search/                # PRISMA 2020 search strategy for the signature corpus
 │   └── 99_auxiliary/             # supporting and superseded scripts retained for transparency
 ├── data/
-│   └── signatures/               # 312 (v1.1.0) + 320 (v1.0.x) signatures: gene lists, metadata, claimed values
+│   └── signatures/               # 312 signatures (current): gene lists, metadata, claimed values
+├── legacy/
+│   └── v1.0.x/                   # 320-signature pre-audit snapshot, quarantined (see its README)
 └── results/
     ├── README.md                 # data dictionary for every result file
-    ├── per_cohort_2560.csv       # ONE ROW PER SIGNATURE x COHORT — pre-audit core deliverable (v1.0.x)
-    └── per_cohort_2496.csv       # post-audit core deliverable, 312 signatures (v1.1.0)
+    ├── per_cohort_2496.csv       # post-audit core deliverable, 312 signatures (v1.1.0)
+    ├── submission_tables/        # v1.2.0: supplementary tables S1/S5/S7/S10/S11/S12b/S13 as submitted
+    └── figures/                  # v1.2.0: Figure_1–5 (PNG + PDF), byte-identical to the submission
 ```
+
+The 320-signature core deliverable formerly at `results/per_cohort_2560.csv` now lives at
+`legacy/v1.0.x/per_cohort_2560.csv`, alongside the two 320-signature catalogue files, so that the
+current `data/` and `results/` trees carry the audited 312-signature artefacts only.
 
 ### The signature catalogue (what gets scored)
 
 `data/signatures/signature_library_312_genes.csv` (v1.1.0, current) and
-`data/signatures/signature_library_320_genes.csv` (v1.0.x, pre-audit snapshot) are the
+`legacy/v1.0.x/signature_library_320_genes.csv` (v1.0.x, pre-audit snapshot) are the
 machine-readable catalogues that stage B consumes: one row per audited signature with `sig_id`,
 year, journal, title, PMCID, source URL, gene count and the **actual gene list**
 (semicolon-separated). Every signature is present and every signature carries a non-empty gene list
@@ -116,6 +141,17 @@ Rscript code/00_check_env.R     # prints R version + verifies required packages
 bash run_all.sh                 # end-to-end; writes everything under results/
 ```
 
+To regenerate only the five submitted figures from the deposited supplementary tables — no
+cohort download, no R, about one minute:
+
+```bash
+for f in code/10_figures/4[1-5]_*_312.py; do python "$f"; done   # -> results/figures/
+```
+
+Each script prints a self-check (the numbers it plotted) and the delivered physical size. The
+output must be byte-identical to `results/figures/Figure_1–5.png`; if it is not, the figure has
+been edited after the fact and the discrepancy should be treated as a defect.
+
 Requirements: R ≥ 4.4 (survival, glmnet, data.table, parallel, timeROC);
 Python ≥ 3.9 (pandas, numpy, scipy, matplotlib, openpyxl, python-docx, requests).
 Input cohorts are downloaded automatically from GEO, UCSC Xena and cBioPortal; no private data
@@ -138,7 +174,7 @@ are required.
   is where the 2,560-row result matrix, the null distributions, NRI/IDI, calibration and the de
   novo comparator are produced. The post-audit v1.1.0 matrices additionally apply the
   primary-tumour restriction, which is documented in the companion article but not yet in the code
-  — see the Pipeline note above; an exact re-run is scheduled for v1.2.0.
+  — see the Pipeline note above; an exact re-run is scheduled for v1.3.0.
 - **Stage C — figures and numbers-for-paper (reproducible from `results/`).**
   `code/10_figures/` and `code/99_auxiliary/35_numbers_for_paper.py` read the deposited result
   tables and emit the manuscript figures and the exact figures quoted in the text.
@@ -147,7 +183,8 @@ So: every *computed* result of the v1.0.x analysis is reproducible from public i
 the one step that cannot be re-run by others is the extraction of published claims from paywalled
 full texts, and for that step we deposit the extracted table rather than the inputs. For the
 post-audit v1.1.0 matrices, the honest position is the Pipeline note: artefacts deposited,
-end-to-end code verification scheduled for v1.2.0.
+end-to-end code verification scheduled for v1.3.0. From v1.2.0 the *figures* are additionally
+reproducible byte-for-byte from the deposited supplementary tables, independently of stage B.
 
 ## The core result
 

@@ -1,0 +1,2 @@
+cohort,n,events,n_gene,C_train,auc5_train,cutoff_locked
+GSE39582,556,187,105,0.901673034618502,0.95422159887798,0.0638708054150839

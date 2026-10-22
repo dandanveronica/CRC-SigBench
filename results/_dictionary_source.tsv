@@ -1,5 +1,5 @@
 repo_file	original_file	description
-per_cohort_2560.csv	per_cohort_8队列.csv	CORE: 320 签名 x 8 队列，一行一次外部验证
+per_cohort_2560.csv	per_cohort_8队列.csv	CORE: 320 签名 x 8 队列，一行一次外部验证（v1.0.x 320 库快照；v1.1.0 起主结果改用 per_cohort_2496.csv / results/submission_tables/S1_2496次评估逐条结果.csv）
 signature_level_summary.csv	签名级_8队列汇总.csv	签名级跨队列汇总
 signature_level_usability.csv	签名级可用性判决.csv	可用性判决（C / ΔC / 校准三条件）
 gene_count_vs_deltaC.csv	签名级_基因数vsΔC.csv	基因数 vs ΔC

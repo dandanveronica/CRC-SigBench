@@ -59,6 +59,16 @@ sig = per.groupby("sig_id").agg(
 ).reset_index()
 # 随机基线之上的增量：逐记录相减后再按签名汇总
 per["d_rand"] = per["C"] - per["null_median"]
+# ---- 限定到最终定稿的 320 条签名（v1.0.x 口径）------------------------------
+# NOTE (v1.2.0)：本脚本属 v1.0.x 的 320 库归因链，刻意保持 320 口径不动；
+# v1.1.0 起主结果为 312 签名 / 2,496 次评估，Stage B 可复现性声明的范围见 README。
+# per_cohort.csv 含 338 条（= 320 定稿 + 最终标准化剔除的 18 条）。该版本的其余
+# 分析（2,560 次评估、校准、复现、PROBAST）全部基于 320，归因也必须同口径，
+# 否则 S2 里每个二分变量的 n1+n0 会等于 338，与正文不符。
+_fin = pd.read_csv(os.path.join(OUT, "签名320清单.csv"))
+KEEP320 = set(_fin[_fin.columns[0]].astype(str))
+sig = sig[sig.sig_id.isin(KEEP320)].copy()
+# ---------------------------------------------------------------------------
 sig = sig.merge(per.groupby("sig_id").d_rand.mean().rename("dC_rand").reset_index(),
                 on="sig_id", how="left")
 

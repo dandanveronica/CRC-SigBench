@@ -1,11 +1,26 @@
 # -*- coding: utf-8 -*-
-"""Figure 5 — PRISMA 2020 flow diagram, adapted to signature-level identification.
+"""Figure 1 — PRISMA 2020 flow diagram, adapted to signature-level identification.
+
+Renumbered 2026-10-14: this diagram is now Figure 1 (it is cited first, in 3.1);
+the study-design figure became Figure 2.
 
 All counts are taken verbatim from the auditable screening register
-(sigminer/output/PRISMA_counts.txt) and from the two frozen library files:
-    signature_library_main.csv   n = 338
-    signature_library_clean.csv  n = 320
+(sigminer/output/PRISMA_counts.txt) and from the frozen library files:
+    signature_library_main.csv        n = 338  (primary-analysis library)
+    signature_library_clean.csv       n = 320  (registration-time snapshot, v1.0.x)
+    signature_library_312_genes.csv   n = 312  (audited benchmark, v1.1.0)
 No count is estimated.
+
+2026-10-18 (H-18 round) — content updated 320 -> 312 after the post-hoc eligibility
+audit (8 signatures removed; JCE_S1, Table A8). The 18 prespecified standardisation
+removals (13 <=2 genes, 1 treatment-response outcome, 4 non-reproducible gene list)
+and the 8 post-hoc removals are shown together as 26 in the final-standardisation
+box, exactly as in the main text ("26 were removed at standardisation (13 <=2 genes,
+1 treatment-response outcome, 4 non-reproducible gene list, 8 ineligible on post-hoc
+audit; JCE_S1, Table A8)").
+Rendering restored to 1500 dpi + bbox_inches='tight' + _trim: the 2026-10-17
+regeneration had dropped bbox_inches='tight', which left 20-41 mm of white margin
+around a 131 mm diagram (fonts would have printed at ~6.9 pt in a 165.9 mm column).
 """
 import os
 import matplotlib
@@ -16,9 +31,13 @@ from matplotlib import rcParams
 OUT = 'audit_out_clean/figures'
 os.makedirs(OUT, exist_ok=True)
 
-rcParams['font.family'] = 'DejaVu Sans'
+# Elsevier artwork instructions: 只允许 Arial/Helvetica、Courier、Symbol、Times；
+# 用非标准字体会被替换为 Elsevier 标准字体，可能导致缺符号或叠字。故弃用默认 DejaVu Sans。
+rcParams['font.family'] = 'sans-serif'
+rcParams['font.sans-serif'] = ['Arial', 'Helvetica']
 rcParams['font.size'] = 8.0
 rcParams['pdf.fonttype'] = 42
+rcParams['ps.fonttype'] = 42      # 矢量导出时嵌入 TrueType，满足 “Embed the font”
 
 GREY = '#5B6770'
 BLUE_FILL, BLUE_EDGE = '#DCE6F1', '#2E6DA4'
@@ -28,7 +47,7 @@ GREY_FILL = '#F2F2F0'
 LINE = 2.1   # vertical space per body line, in data units
 
 
-def fig5():
+def fig_prisma():
     fig, ax = plt.subplots(figsize=(7.4, 10.6))
     ax.axis('off')
     ax.set_xlim(0, 100)
@@ -110,22 +129,25 @@ def fig5():
     # ---------------- Included ----------------
     box(LX, 45.5, LW, 8, 'Primary-analysis library', 'n = 338',
         BLUE_FILL, BLUE_EDGE)
-    box(RX, 20, RW, 14, 'Removed during final standardisation',
-        'n = 18\n'
+    # n = 26 = 18 prespecified standardisation removals (13 / 1 / 4)
+    #       + 8 ineligible on the post-hoc eligibility audit (JCE_S1, Table A8)
+    box(RX, 18.5, RW, 16, 'Removed during final standardisation',
+        'n = 26\n'
         '\u2022 \u22642 genes (fails multigene criterion)   13\n'
         '\u2022 treatment-response outcome               1\n'
-        '\u2022 gene list not reproducible on review   4',
+        '\u2022 gene list not reproducible on review   4\n'
+        '\u2022 ineligible on post-hoc re-read           8',
         GREY_FILL, GREY)
     across(49.5, 30)
     down(45.5, 40.5)
 
     box(LX, 31, LW, 9.5, 'Signatures included in the benchmark',
-        'n = 320 from 320 publications\n1,514 unique HGNC symbols',
+        'n = 312 from 312 publications\n1,463 unique HGNC symbols',
         GREEN_FILL, GREEN_EDGE)
     down(31, 25.5)
 
     box(LX, 18, LW, 7.5,
-        'External evaluations\n320 signatures \u00d7 8 cohorts = 2,560',
+        'External evaluations\n312 signatures \u00d7 8 cohorts = 2,496',
         None, GREEN_FILL, GREEN_EDGE, fs_t=8.0)
 
     # ---------------- section labels ----------------
@@ -134,14 +156,34 @@ def fig5():
         ax.text(2.2, ymid, name, ha='center', va='center',
                 rotation=90, fontsize=8.6, fontweight='bold', color=GREY)
 
-    ax.text(50, 112.6, 'Figure 5. PRISMA 2020 flow diagram (signature-level identification)',
-            ha='center', fontsize=9.6, fontweight='bold')
-
-    fig.savefig(f'{OUT}/Figure5_prisma.png', dpi=300, bbox_inches='tight',
-                facecolor='white')
+    # 不烧录图题：Elsevier 规定 “A caption should consist of a brief title
+    # (not displayed on the figure itself)”，图注已在正文 P56 单独提供。
+    # 1500 dpi：本图为纯线条/文字流程，属 line art；全书阔(190 mm)排版时
+    # 最低需 7480 px (=1000 dpi x 7.48 in)。7.4 in @1500 dpi 经 tight+trim 后约 8200 px，
+    # 留约 10% 余量；实测像素宽见 08_核验底稿。
+    _p = f'{OUT}/Figure_1.png'
+    fig.savefig(_p, dpi=1500, bbox_inches='tight', facecolor='white')
+    _trim(_p, 1500)
+    # 同时输出矢量备份（Elsevier 对 line art 优先推荐矢量；仅在需要时提供）
+    fig.savefig(f'{OUT}/Figure_1.pdf', bbox_inches='tight', facecolor='white')
     plt.close(fig)
-    print('Figure 5 (PRISMA) ok ->', f'{OUT}/Figure5_prisma.png')
+    print('Figure 1 (PRISMA) ok ->', _p)
+
+
+def _trim(path, dpi, pad=24):
+    """bbox_inches='tight' 会把不可见的坐标轴背景算入，导致上下留 ~10 mm 死白；
+    按实际内容重新裁边，使图幅恰好包住图形。"""
+    from PIL import Image
+    import numpy as np
+    im = Image.open(path)
+    bg = Image.new('RGB', im.size, (255, 255, 255))
+    bg.paste(im, mask=im.split()[3] if im.mode == 'RGBA' else None)
+    a = np.asarray(bg, int)
+    ys, xs = np.where(a.sum(2) < 750)
+    box_ = (max(0, xs.min()-pad), max(0, ys.min()-pad),
+            min(a.shape[1], xs.max()+1+pad), min(a.shape[0], ys.max()+1+pad))
+    bg.crop(box_).save(path, dpi=(dpi, dpi))
 
 
 if __name__ == '__main__':
-    fig5()
+    fig_prisma()
