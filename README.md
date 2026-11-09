@@ -1,10 +1,12 @@
 # CRC-SigBench — a cross-cohort benchmark of colorectal cancer prognostic transcriptomic signatures
 
-**Current release: v1.2.0 (22 October 2026) — the five manuscript figures are now reproducible from
-this repository by script, at the exact resolution and dimensions submitted. The underlying result
-set is unchanged from v1.1.0: 312 signatures, 2,496 external validations, after the post-hoc
-eligibility audit. The 320-signature pre-audit snapshot analysed at the time of OSF registration
-(3 October 2026) is preserved unchanged at v1.0.0–v1.0.2 — see the Version notes below.**
+**Current release: v1.2.1 (9 November 2026) — adds the three auxiliary analyses behind
+Supplementary Figure S19 of the article (gene-level recurrence, Hallmark pathway enrichment,
+proliferation head-to-head) with repository-relative paths and a fixed RNG seed. The figure
+pipeline (v1.2.0) and the underlying result set (v1.1.0: 312 signatures, 2,496 external
+validations, after the post-hoc eligibility audit) are unchanged. The 320-signature pre-audit
+snapshot analysed at the time of OSF registration (3 October 2026) is preserved unchanged at
+v1.0.0–v1.0.2 — see the Version notes below.**
 
 https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605/OSF.IO/6PF43 · Code: MIT · Data and results: CC0 1.0
 
@@ -44,6 +46,20 @@ https://github.com/dandanveronica/CRC-SigBench · OSF registration: DOI 10.17605
 > un-deposited intermediate files, filters on the 320-signature catalogue, and was never upgraded
 > to the submission artwork specification. The 320-signature artefacts it belongs with are
 > quarantined in `legacy/v1.0.x/`.
+>
+> **Version note (9 November 2026) — v1.2.1.** The three auxiliary analyses underlying
+> Supplementary Figure S19 of the article now live in `code/99_auxiliary/` with
+> repository-relative paths and a fixed RNG seed: `40_gene_recurrence.py` (gene-recurrence
+> spectrum over the 312 signature gene lists; reads
+> `data/signatures/signature_library_312_genes.csv`), `41_prolif_head_to_head.R` (per-cohort
+> oriented C-index of the KEGG cell-cycle score P versus the 312 signatures; reads
+> `results/per_cohort_2496.csv` and the rebuilt cohort objects), and `42_hallmark_convergence.py`
+> (MSigDB Hallmark 2020 hypergeometric enrichment against the measured universe; gene set in
+> `data/proliferation/hallmark_2020_symbols.txt`, provenance in `README_hallmark.txt`).
+> 41 must run before 42 (42 consumes the measured-universe file that 41 writes); both need the
+> cohort objects rebuilt by `code/01_build_cohorts`. Outputs go to `audit_out_clean/pathway/`
+> (git-ignored, regenerated on run). The end-to-end code verification remains scheduled for
+> v1.3.0.
 
 ## What this is
 
