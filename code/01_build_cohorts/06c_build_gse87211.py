@@ -20,7 +20,8 @@ import numpy as np
 import pandas as pd
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-RAW = os.path.join(BASE, "cohorts_raw")
+REPO = os.path.dirname(os.path.dirname(BASE))  # 仓库根：与 06b 默认 cwd 的 cohorts_raw 统一
+RAW = os.path.join(REPO, "cohorts_raw")
 MAT = os.path.join(RAW, "GSE87211_series_matrix.txt.gz")
 GPL = os.path.join(RAW, "GPL13497_platform.txt")
 
